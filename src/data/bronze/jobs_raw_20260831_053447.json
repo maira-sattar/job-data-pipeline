@@ -1,0 +1,1683 @@
+{
+  "count": 1907,
+  "mean": 62783.89,
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "results": [
+    {
+      "latitude": 52.042198,
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "title": "Data Analyst",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODU0MjIxNDI3In0.5q4scxOvQhu5RZ4Bg0q99ZWa_hYisbZISda5XoEPEe4",
+      "salary_is_predicted": "0",
+      "location": {
+        "display_name": "Milton Keynes, Buckinghamshire",
+        "area": [
+          "UK",
+          "South East England",
+          "Buckinghamshire",
+          "Milton Keynes"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "longitude": -0.7047,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Innoviz Limited"
+      },
+      "contract_type": "permanent",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5854221427?utm_medium=api&utm_source=d5da9c84",
+      "salary_min": 34000,
+      "created": "2026-08-24T07:45:02Z",
+      "description": "* Collect data from databases, spreadsheets, APIs, or other sources. * Clean and prepare data for analysis. * Analyze data to identify trends, patterns, and business opportunities. * Write SQL queries to retrieve and manipulate data. * Create dashboards and reports using Power BI or Tableau. * Use Excel for data analysis, formulas, PivotTables, and reporting. * Perform basic statistical analysis. * Communicate insights and recommendations to managers and stakeholders. * Validate data accuracy a\u2026",
+      "salary_max": 45000,
+      "id": "5854221427"
+    },
+    {
+      "latitude": 54.542099,
+      "category": {
+        "tag": "legal-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Legal Jobs"
+      },
+      "title": "Paralegal - Data Privacy Analyst",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODYwODY4NjgyIn0.rjoTyhYbMWB2-uMpDgo1fSwhGXtJ_o3JTowq6P0EPw4",
+      "salary_is_predicted": "1",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "Lisburn",
+          "Ballinderry Upper"
+        ],
+        "display_name": "Ballinderry Upper, Lisburn"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "A&O Shearman"
+      },
+      "longitude": -6.17601,
+      "salary_min": 50077.84,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5860868682?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=DEB6438A891CC9DBCF27239D9C7FA83DA2C45669",
+      "salary_max": 50077.84,
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "created": "2026-08-29T08:43:23Z",
+      "id": "5860868682"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MTYyNzcxMiIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.nVLikz_mx2EA72mUbyDoWK-Yj7Y00YNEK2RJqcnEtv8",
+      "salary_is_predicted": "1",
+      "title": "Paralegal - Data Privacy Analyst",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "legal-jobs",
+        "label": "Legal Jobs"
+      },
+      "latitude": 54.655499,
+      "id": "5861627712",
+      "salary_max": 52904.14,
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "created": "2026-08-30T00:45:12Z",
+      "salary_min": 52904.14,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5861627712?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=47FB46C9E578828B4BA6F83DE816E3A3B95B7B1B",
+      "company": {
+        "display_name": "A&O Shearman",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -5.67482,
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "North Down",
+          "Bangor"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Bangor, North Down"
+      }
+    },
+    {
+      "id": "5860868747",
+      "salary_max": 51986.88,
+      "created": "2026-08-29T08:43:25Z",
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "salary_min": 51986.88,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5860868747?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=E6B36234571D69C9CE425B99EEAD7CBE67050924",
+      "company": {
+        "display_name": "A&O Shearman",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -5.55258,
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Carrowdore, Newtownards",
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "Ards",
+          "Newtownards",
+          "Carrowdore"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MDg2ODc0NyIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.esakqyGgODgxA2i7HqngWD1Ai27KMabct57jZLNTt4c",
+      "salary_is_predicted": "1",
+      "title": "Paralegal - Data Privacy Analyst",
+      "latitude": 54.577599,
+      "category": {
+        "tag": "legal-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Legal Jobs"
+      }
+    },
+    {
+      "latitude": 54.642399,
+      "category": {
+        "label": "Legal Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "legal-jobs"
+      },
+      "title": "Paralegal - Data Privacy Analyst",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MDg2ODcyMSIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.tnuHz0sMALJVdqnyCnfYhtEJszZPWDWL0gXavRATPbY",
+      "salary_is_predicted": "1",
+      "contract_time": "full_time",
+      "longitude": -5.83,
+      "company": {
+        "display_name": "A&O Shearman",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "location": {
+        "display_name": "Holywood, North Down",
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "North Down",
+          "Holywood"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "created": "2026-08-29T08:43:25Z",
+      "salary_max": 47596.27,
+      "id": "5860868721",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5860868721?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=D0CED66E756A42DB4051D7619D452605C984CFB1",
+      "salary_min": 47596.27
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODYyMDQwNjUyIn0.Mgtpvk4uyTTM5J_mygtxwtOjVMJ68gp_tXYqL5gULlc",
+      "salary_is_predicted": "1",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5862040652?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=B654D8C60B2A999E8B819D596E81D05EA1ED1C59",
+      "salary_min": 51986.88,
+      "id": "5862040652",
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "created": "2026-08-30T10:57:22Z",
+      "salary_max": 51986.88,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK"
+        ],
+        "display_name": "UK"
+      },
+      "title": "Paralegal - Data Privacy Analyst",
+      "company": {
+        "display_name": "A&O Shearman",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "full_time",
+      "category": {
+        "tag": "legal-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Legal Jobs"
+      }
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Furzedown, South West London",
+        "area": [
+          "UK",
+          "London",
+          "South West London",
+          "Furzedown"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "longitude": -0.162653,
+      "company": {
+        "display_name": "OneForma",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "part_time",
+      "contract_type": "permanent",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5859492510?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=3BA1DA314E8ACAAAC83DBD01B04E2A78C30BD2C1",
+      "salary_min": 22880,
+      "id": "5859492510",
+      "created": "2026-08-28T09:16:41Z",
+      "description": "We're looking for English speakers located anywhere in United Kingdom ! About the Role Join OneForma and help improve real-world map and geo-localization applications. As a Data Analyst for AI Training , you\u2019ll evaluate real user search queries to enhance search accuracy, relevance, and overall navigation experience. Purpose: Tasks may include reviewing queries like \u201cpharmacy near me\u201d or \u201crailway station\u201d and checking if the results match user intent. This is a straightforward task with no tech\u2026",
+      "salary_max": 22880,
+      "title": "Data Analyst (AI Training)",
+      "category": {
+        "tag": "part-time-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Part time Jobs"
+      },
+      "latitude": 51.4103,
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1OTQ5MjUxMCIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.OjF1yRQ4Yl4qS3gU3QdsEKbybciIM5MttMTrxqQKOu8"
+    },
+    {
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5860868749?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=95AC50AC00B63B6B09262FE9958C5D3675139416",
+      "salary_min": 51986.88,
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "created": "2026-08-29T08:43:25Z",
+      "salary_max": 51986.88,
+      "id": "5860868749",
+      "location": {
+        "display_name": "Shankill Two, Enniskillen",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "Fermanagh",
+          "Enniskillen",
+          "Shankill Two"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "longitude": -7.6404,
+      "company": {
+        "display_name": "A&O Shearman",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODYwODY4NzQ5In0.hE-Vp0o_FoK121L7AfV4X_Z4FpSh-aI_d3KD62fzKyM",
+      "category": {
+        "label": "Legal Jobs",
+        "tag": "legal-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "latitude": 54.3465,
+      "title": "Paralegal - Data Privacy Analyst"
+    },
+    {
+      "category": {
+        "tag": "legal-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Legal Jobs"
+      },
+      "latitude": 54.441502,
+      "title": "Paralegal - Data Privacy Analyst",
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODYwODY4NzM4In0.Kzg7srQEMIinkRjDwqoG5GYrZqkqAta_V7q4M5875O4",
+      "location": {
+        "display_name": "Knockmenagh, Craigavon",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "Craigavon",
+          "Knockmenagh"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "company": {
+        "display_name": "A&O Shearman",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -6.40038,
+      "salary_min": 51986.88,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5860868738?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=8D67997DDFD29BC338E57509C992AB2DC2ACB50D",
+      "salary_max": 51986.88,
+      "created": "2026-08-29T08:43:25Z",
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "id": "5860868738"
+    },
+    {
+      "longitude": -5.79776,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "A&O Shearman"
+      },
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "Belfast",
+          "Dundonald"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Dundonald, Belfast"
+      },
+      "id": "5860868746",
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "created": "2026-08-29T08:43:25Z",
+      "salary_max": 47604.99,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5860868746?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=EBF208E46F7151F430965B7E9D0CFC6B131461CF",
+      "salary_min": 47604.99,
+      "title": "Paralegal - Data Privacy Analyst",
+      "latitude": 54.595501,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "legal-jobs",
+        "label": "Legal Jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MDg2ODc0NiIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.LAS6RSlAu8FqZh79XklqHZ9CciA1IHegeOptUmDpaPw",
+      "salary_is_predicted": "1"
+    },
+    {
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MDg2ODczNiIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.qXVWQqwW4lnZh42UDYMIYbp-26fS23c3qF3d8chC15w",
+      "title": "Paralegal - Data Privacy Analyst",
+      "latitude": 54.675131,
+      "category": {
+        "label": "Legal Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "legal-jobs"
+      },
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5860868736?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=6828AD7504E4C36BEAD0B954C8C2BDA6013AF91E",
+      "salary_min": 51814.68,
+      "id": "5860868736",
+      "created": "2026-08-29T08:43:25Z",
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "salary_max": 51814.68,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "County Antrim"
+        ],
+        "display_name": "County Antrim, Northern Ireland"
+      },
+      "longitude": -6.225599,
+      "company": {
+        "display_name": "A&O Shearman",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "full_time"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "Larne"
+        ],
+        "display_name": "Larne, Northern Ireland"
+      },
+      "longitude": -5.81125,
+      "company": {
+        "display_name": "A&O Shearman",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5860868739?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=7D1357605573E5BE640732B227645A38E3D8E4F1",
+      "salary_min": 51492.81,
+      "id": "5860868739",
+      "created": "2026-08-29T08:43:25Z",
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "salary_max": 51492.81,
+      "title": "Paralegal - Data Privacy Analyst",
+      "latitude": 54.855099,
+      "category": {
+        "label": "Legal Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "legal-jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MDg2ODczOSIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.UZsSIm_62KUpWFWe_TbWTX4eQZPXZhk3Z6SLKXaeMjA",
+      "salary_is_predicted": "1"
+    },
+    {
+      "salary_max": 49003.84,
+      "created": "2026-08-30T00:45:12Z",
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "id": "5861627711",
+      "salary_min": 49003.84,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5861627711?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=AEE7AC154F501C97526040204A17EE0614E293DD",
+      "contract_time": "full_time",
+      "company": {
+        "display_name": "A&O Shearman",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -5.997899,
+      "location": {
+        "display_name": "Newtownabbey, County Antrim",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "County Antrim",
+          "Newtownabbey"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODYxNjI3NzExIn0.8J35J-nVNJR4APTHJjH5X_JQXvTVDz6_ssJj3lJ6Boc",
+      "latitude": 54.727512,
+      "category": {
+        "label": "Legal Jobs",
+        "tag": "legal-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "Paralegal - Data Privacy Analyst"
+    },
+    {
+      "company": {
+        "display_name": "A&O Shearman",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -6.26137,
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Magheralin, Craigavon",
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "Craigavon",
+          "Magheralin"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "id": "5860868732",
+      "salary_max": 61229.22,
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "created": "2026-08-29T08:43:25Z",
+      "salary_min": 61229.22,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5860868732?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=3BB00A4053E281C011DFB94B4DAD0E23516CBF3B",
+      "title": "Paralegal - Data Privacy Analyst",
+      "latitude": 54.4674,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "legal-jobs",
+        "label": "Legal Jobs"
+      },
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MDg2ODczMiIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.tqRCkMG0fc66m1TQ7fXkBrybdkNw8auLHLeG4PWUayE"
+    },
+    {
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "created": "2026-08-29T08:43:25Z",
+      "salary_max": 48869.25,
+      "id": "5860868735",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5860868735?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=2E4407D4E25006EA2F2EEECF0D9CB313E893CAED",
+      "salary_min": 48869.25,
+      "contract_time": "full_time",
+      "longitude": -6.04273,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "A&O Shearman"
+      },
+      "location": {
+        "display_name": "Lisburn, Northern Ireland",
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "Lisburn"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODYwODY4NzM1In0.xVw09sKHm1NGoeHMMj_2uYrKcuaGAC4wHy4YFPA3P2c",
+      "salary_is_predicted": "1",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "legal-jobs",
+        "label": "Legal Jobs"
+      },
+      "latitude": 54.510899,
+      "title": "Paralegal - Data Privacy Analyst"
+    },
+    {
+      "salary_min": 55189.37,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5860868690?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=DF5481577F2FEB63ED680B2F98C07E415C8DBDEC",
+      "id": "5860868690",
+      "salary_max": 55189.37,
+      "created": "2026-08-29T08:43:24Z",
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Castlereagh, Belfast",
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "Belfast",
+          "Castlereagh"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "A&O Shearman"
+      },
+      "longitude": -5.87395,
+      "contract_time": "full_time",
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MDg2ODY5MCIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.K-FGy9E5zxmhM06k6JhE1gXd_kQrN11YJsdk30TwZN4",
+      "title": "Paralegal - Data Privacy Analyst",
+      "latitude": 54.569737,
+      "category": {
+        "tag": "legal-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Legal Jobs"
+      }
+    },
+    {
+      "location": {
+        "display_name": "Knock, Belfast",
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "Belfast",
+          "Knock"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "longitude": -5.83354,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "A&O Shearman"
+      },
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5860868728?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=1E318C27680A8C32292404E8ADF816D58A8EAFDD",
+      "salary_min": 47838,
+      "created": "2026-08-29T08:43:25Z",
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "salary_max": 47838,
+      "id": "5860868728",
+      "latitude": 54.592602,
+      "category": {
+        "label": "Legal Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "legal-jobs"
+      },
+      "title": "Paralegal - Data Privacy Analyst",
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MDg2ODcyOCIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.ofpejNnAdVLPxgVFNyC3i_9ZIJs-MgMxXh1zssQkCJ4"
+    },
+    {
+      "location": {
+        "display_name": "Belfast, Northern Ireland",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "Belfast"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "Legal Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "legal-jobs"
+      },
+      "contract_time": "full_time",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "A&O Shearman"
+      },
+      "title": "Paralegal - Data Privacy Analyst",
+      "salary_min": 50405.81,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5860868688?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=4578564AE4A4BF7034FDA030A23C0175FA28BABC",
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MDg2ODY4OCIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.Z5jYgWEWaI0xe-49GpJ9O3Wdwg4H7Rg30mxzSnVXNAY",
+      "salary_max": 50405.81,
+      "created": "2026-08-29T08:43:24Z",
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "id": "5860868688"
+    },
+    {
+      "latitude": 53.289902,
+      "category": {
+        "label": "Legal Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "legal-jobs"
+      },
+      "title": "Paralegal - Data Privacy Analyst",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MDg2ODczMyIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.ItAh6ufZ7LqLeNUFBh2i4aNYw3fXwgR9r2sNSmj4sG0",
+      "salary_is_predicted": "1",
+      "location": {
+        "display_name": "Neston, Cheshire",
+        "area": [
+          "UK",
+          "North West England",
+          "Cheshire",
+          "Neston"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "company": {
+        "display_name": "A&O Shearman",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -3.06447,
+      "salary_min": 47333.28,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5860868733?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=CF1181BB5892CE89667B2A99B92BD34092EBA542",
+      "salary_max": 47333.28,
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "created": "2026-08-29T08:43:25Z",
+      "id": "5860868733"
+    },
+    {
+      "title": "Paralegal - Data Privacy Analyst",
+      "latitude": 54.888599,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "legal-jobs",
+        "label": "Legal Jobs"
+      },
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODYwODY4NzM0In0.4zwa9EUuWqV8wUDbmGyKrAWEBCIP-tV2TCfHmnULHgk",
+      "company": {
+        "display_name": "A&O Shearman",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -6.35796,
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Cullybackey, Ballymena",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "Northern Ireland",
+          "Ballymena",
+          "Cullybackey"
+        ]
+      },
+      "id": "5860868734",
+      "salary_max": 50976.93,
+      "description": "A&O Shearman are hiring for a Paralegal - Data Privacy Analyst to join the Data Privacy team in Belfast. Data Privacy Team A&O Shearman\u2019s Risk function, led by partner, Simon Fuge, is comprised of teams of market leading experts and is at the heart of the sustainability and success of our firm. It has a core responsibility to uphold the values of A&O Shearman and support the strategic objectives of the business. Our lawyers and industry experts provide high quality legal and risk advice to the \u2026",
+      "created": "2026-08-29T08:43:25Z",
+      "salary_min": 50976.93,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5860868734?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=E73427AF5DE3A2499DD62B717BA2827EB76DC9F1"
+    },
+    {
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODU0MjU4Mjg1In0.5GVXY8E-fZ3OI4ixV_9i9eldoYTdea3hd-711ZNkSn4",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5854258285?utm_medium=api&utm_source=d5da9c84",
+      "salary_min": 30000,
+      "id": "5854258285",
+      "description": "Data Analyst Solihull (5 days per week) \u00a335,000 per annum VIQU has partnered with a global organisation looking to expand their dat capabilities. This role will be the sole Data Analyst position in the UK, working closely with the head of Technology, and the wider data team to transform business data into insights. You'll be responsible for analysing and manipulating large datasets, identifying trends and potential issues before they impact the business, and presenting clear recommendations to \u2026",
+      "created": "2026-08-24T09:41:32Z",
+      "salary_max": 35000,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "West Midlands",
+          "Birmingham",
+          "Fordbridge"
+        ],
+        "display_name": "Fordbridge, Birmingham"
+      },
+      "longitude": -1.752697,
+      "title": "Data Analyst",
+      "company": {
+        "display_name": "VIQU Limited",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "latitude": 52.482233
+    },
+    {
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5829393076?utm_medium=api&utm_source=d5da9c84",
+      "salary_min": 0,
+      "id": "5829393076",
+      "description": "Data Analyst Red Recruitment is recruiting a switched-on and detail-oriented Data Analyst to join an innovative fintech organisation in Bristol on a four-week temporary contract. Working within the Product team, you will help ensure the data used by an AI-powered platform is reliable and accurate. You will write and refine instructions for AI models, test data extractions and manually review the results. This is an excellent opportunity for someone who is curious about AI, enjoys solving proble\u2026",
+      "created": "2026-08-05T20:50:33Z",
+      "salary_max": 31200,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Redcliffe, Bristol",
+        "area": [
+          "UK",
+          "South West England",
+          "Bristol",
+          "Redcliffe"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "longitude": -2.589736,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Red Recruitment"
+      },
+      "contract_time": "full_time",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgyOTM5MzA3NiIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.WhnA0Oyd3k7MO5J9fI31PD8ALjjR1w4ZcKXGHS2ESmQ",
+      "title": "Data Analyst",
+      "latitude": 51.452692,
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      }
+    },
+    {
+      "longitude": -1.17902,
+      "title": "Data Analyst",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Kingdom Security"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "latitude": 50.851501,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "South East England",
+          "Hampshire",
+          "Fareham"
+        ],
+        "display_name": "Fareham, Hampshire"
+      },
+      "id": "5854537338",
+      "created": "2026-08-24T19:32:17Z",
+      "description": "Are you an experienced Supply Chain Analyst, Data Analyst or Supply Chain Coordinator with a passion for data accuracy, reporting and continuous improvement? Do you enjoy turning complex supply chain data into meaningful insights that improve planning, inventory and operational performance? We're supporting a leading manufacturing business in Fareham who are looking to recruit a Supply Chain Data Analyst to join their Supply Chain team. What's the role all about? As a Supply Chain Data Analyst \u2026",
+      "salary_max": 44000,
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODU0NTM3MzM4In0.Sahoa_rABppfjPDvCpQ9KIK3hJX1hJc38p8GkKCSNNs",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5854537338?utm_medium=api&utm_source=d5da9c84",
+      "salary_min": 42000
+    },
+    {
+      "salary_max": 52152.68,
+      "description": "Robert Half Technology are assisting a specialist growth intelligence firm that sits at the intersection of data, pricing, product strategy, AI and B2B technology to recruit a Data Analyst. London based - Hybrid working Role The Data Analyst will build and deliver high-quality, client-specific analysis Own client data requests and identify ways to maximise value from incomplete or unstructured datasets Deliver ad-hoc analysis, data enhancements, enrichment, scraping, and advanced matching Contr\u2026",
+      "created": "2026-08-24T21:10:47Z",
+      "id": "5854573891",
+      "salary_min": 52152.68,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5854573891?utm_medium=api&utm_source=d5da9c84",
+      "contract_type": "contract",
+      "contract_time": "full_time",
+      "company": {
+        "display_name": "Robert Half",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -0.139134,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "London"
+        ],
+        "display_name": "London, UK"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NDU3Mzg5MSIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.Tmu2XHuJvYzsHEZt8wBUh-qyJH-ADcKDjaoQh1ZdV0E",
+      "latitude": 51.503378,
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "title": "Data Analyst"
+    },
+    {
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "Infinity Quest UK",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Analyst",
+      "location": {
+        "area": [
+          "UK"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "UK"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_max": 42524.68,
+      "created": "2026-08-26T19:11:52Z",
+      "description": "Data Analyst with experience supporting data migrations and integrations, specifically - Source-to-target mapping - Data mapping and transformation requirements - Data validation and reconciliation - Integration testing support - Working closely with business and technical teams to define requirements",
+      "id": "5857207852",
+      "salary_min": 42524.68,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5857207852?utm_medium=api&utm_source=d5da9c84",
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODU3MjA3ODUyIn0.GYZh9ZIWfWPBh8g73oFcSxdv8cswockySYyn11mxkWQ"
+    },
+    {
+      "salary_max": 93600,
+      "description": "Hello Team Need your help, please share profiles on the below role on Priority (Need only 3 CVs here) About Position: Detailed JD: given- Role 1 and role 2 Sell Rate: 45 Euros/hr. Duration of assignment:6 months to begin with possible extension Subcon Remote or Hybrid(how many days): Mostly REMOTE but keep London (should be flexible to travel when required) Do we have Client round: Yes Role 2: Detailed JD: Data Analyst with experience supporting data migrations and integrations, specifically - \u2026",
+      "created": "2026-08-26T19:11:52Z",
+      "id": "5857207842",
+      "salary_min": 93600,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5857207842?utm_medium=api&utm_source=d5da9c84",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NzIwNzg0MiIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.QRdG5_DHCuPvHDdgTFFqEcsDn9q2-n8x9hTkbSJZPGs",
+      "salary_is_predicted": "0",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Infinity Quest UK"
+      },
+      "title": "Data Analyst",
+      "location": {
+        "display_name": "UK",
+        "area": [
+          "UK"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "UK",
+          "South East England",
+          "Hampshire",
+          "Fareham",
+          "Whiteley"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Whiteley, Fareham"
+      },
+      "company": {
+        "display_name": "Kingdom Security",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -1.250126,
+      "title": "Data Analyst",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "latitude": 50.872576,
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODM4Njc0OTExIn0.fJORUEN1hAEv6aCpZkok4O0ZFosox2V1ACV79um7HPM",
+      "salary_min": 43000,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5838674911?utm_medium=api&utm_source=d5da9c84",
+      "id": "5838674911",
+      "salary_max": 44000,
+      "created": "2026-08-12T19:37:45Z",
+      "description": "SUPPLY CHAIN DATA CONTROLLER / ANALYST Turn Data Into Business Decisions We're looking for a talented Supply Chain Data Controller / Analyst to transform complex data into meaningful insights that drive operational excellence. What You'll Be Doing \u2022 Developing Power BI dashboards and automated reporting \u2022 Analysing supply chain, inventory and supplier performance data \u2022 Creating KPI frameworks and performance reports \u2022 Identifying trends, risks and improvement opportunities \u2022 Supporting data-le\u2026"
+    },
+    {
+      "longitude": -1.14917,
+      "title": "Data Analyst",
+      "company": {
+        "display_name": "Experian",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "latitude": 52.955101,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Nottingham, Nottinghamshire",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "East Midlands",
+          "Nottinghamshire",
+          "Nottingham"
+        ]
+      },
+      "id": "5857234851",
+      "created": "2026-08-26T21:10:50Z",
+      "description": "Job Description We are looking for a Data Analyst reporting into the Head of Data in our Nottingham office. You will manage the delivery of high-quality data solutions that support client, operational, and business objectives. Working within the Data Delivery team, you will combine technical capability with stakeholder engagement to ensure data products are delivered accurately, efficiently. You can analyse, transform, and validate complex datasets using SQL or SAS, while identifying opportunit\u2026",
+      "salary_max": 46572.79,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NzIzNDg1MSIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.sGKvqMiEaF5foqmYbOgn4sR1x4Vpi_GXYjzPYIemRRg",
+      "salary_is_predicted": "1",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5857234851?utm_medium=api&utm_source=d5da9c84",
+      "salary_min": 46572.79
+    },
+    {
+      "salary_min": 44228.03,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5840648792?utm_medium=api&utm_source=d5da9c84",
+      "salary_max": 44228.03,
+      "created": "2026-08-13T20:57:17Z",
+      "description": "Job title: Data Analyst Start Date: ASAP Contract: six months (possibility of extension) Location: Paddington (Hybrid) Sector: Retail Summary Producing an analysis is only part of the job; understanding whether it can be trusted, explained and used to support a decision is just as important. Our Advanced Analytics team helps make better decisions by combining commercial insight, decision science and analytical engineering. We work across product squads and the wider business on trusted, high-im\u2026",
+      "id": "5840648792",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "London"
+        ],
+        "display_name": "London, UK"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Experis UK"
+      },
+      "longitude": -0.139134,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MDY0ODc5MiIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.ltqpl_NCOLRu5XxV0xp5H-qcYOV00RMVBfnRoCoEVc8",
+      "salary_is_predicted": "1",
+      "latitude": 51.503378,
+      "category": {
+        "tag": "consultancy-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Consultancy Jobs"
+      },
+      "title": "Data Analyst"
+    },
+    {
+      "id": "5837119381",
+      "salary_max": 30000,
+      "created": "2026-08-11T19:35:04Z",
+      "description": "Location: Burnaston/ Client Site Salary: \u00a327,,000 per annum (depending on experience) Hours: Monday-Friday, 8:00am-4:30pm (open to 9am-3pm) Temporary, Ongoing Full-Time We're looking for an analytical and proactive Data Analyst to join our Managed Services team. This role will play a key part in providing workforce and operational insights that help both Proman and our clients make informed business decisions. Working closely with onsite account teams and stakeholders, you'll transform data int\u2026",
+      "salary_min": 27000,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5837119381?utm_medium=api&utm_source=d5da9c84",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Proman"
+      },
+      "longitude": -1.563932,
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "East Midlands",
+          "Derbyshire",
+          "Derby",
+          "Willington"
+        ],
+        "display_name": "Willington, Derby"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzNzExOTM4MSIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.EBtJt92fA8s1bxIzczWOpI-Ep_5dRWOR-y3KmX9Yk_w",
+      "salary_is_predicted": "0",
+      "title": "Data Analyst",
+      "latitude": 52.872193,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      }
+    },
+    {
+      "location": {
+        "display_name": "London, UK",
+        "area": [
+          "UK",
+          "London"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "latitude": 51.503378,
+      "company": {
+        "display_name": "Sportradar",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Analyst",
+      "longitude": -0.139134,
+      "salary_min": 53957.82,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5841480237?utm_medium=api&utm_source=d5da9c84",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODQxNDgwMjM3In0.M97mVTZOLiG4RSGZatQ13V-3K9VDRMmfmpRwQbEbRyo",
+      "salary_is_predicted": "1",
+      "salary_max": 53957.82,
+      "description": "Job Description Are you passionate about Data Visualization and Data Analysis? Sportradar is seeking a motivated Data Analyst (Business Intelligence Analyst) to join the fast paced and dynamic Data & Insights team. You will be responsible for the design, creation, and implementation of the reporting layer. You will implement creative approaches to solving complex problems. In addition to building new features, you will constantly be improving and expanding existing reporting interfaces. The rol\u2026",
+      "created": "2026-08-14T08:57:49Z",
+      "id": "5841480237"
+    },
+    {
+      "latitude": 51.5439,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "title": "Data Analyst",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODM3NTgzNjM3In0.MIW66gZW-BcsJ-T1toG3iUeU6xHZ-7I-psGs5SZXI1Q",
+      "contract_time": "full_time",
+      "longitude": -0.066098,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Connect2Hackney"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "London",
+          "East London",
+          "Hackney"
+        ],
+        "display_name": "Hackney, East London"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Connect2Hackney , as the internal talent team for the London Borough of Hackney, are excited to offer an opportunity for an experienced Data Analyst to join our forward-thinking Customer Services, Digital & Data team. In this key role, you will be working at SFIA Level 4 ('Enable') to bridge the gap between raw data and impactful organisational decision-making. You will collaborate with stakeholders across the Council to translate complex business challenges into actionable insights, build user\u2026",
+      "created": "2026-08-12T02:56:10Z",
+      "salary_max": 104000,
+      "id": "5837583637",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5837583637?utm_medium=api&utm_source=d5da9c84",
+      "salary_min": 98800
+    },
+    {
+      "contract_time": "full_time",
+      "longitude": -0.139134,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Solirius Reply"
+      },
+      "location": {
+        "area": [
+          "UK",
+          "London"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "London, UK"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "About Us: Solirius Reply , part of the Reply Group , is a technology consultancy and digital transformation partner that helps organisations solve complex challenges through strategy, design, engineering, and delivery. We work closely with our clients to deliver secure, accessible, user-focused services that evolve with their needs. By combining deep technical expertise with people-centred design, we create solutions that deliver meaningful, lasting impact. Our consultants partner directly with\u2026",
+      "created": "2026-05-22T11:06:12Z",
+      "salary_max": 85000,
+      "id": "5737508609",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5737508609?utm_medium=api&utm_source=d5da9c84",
+      "salary_min": 40000,
+      "latitude": 51.503378,
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "Data Analyst",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1NzM3NTA4NjA5In0.eMOG3d7l4wUWCzBJWE011vzc7qjnBtvHVbm9kDWYmvI"
+    },
+    {
+      "contract_time": "full_time",
+      "company": {
+        "display_name": "Hulcan",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -0.139134,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "London"
+        ],
+        "display_name": "London, UK"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_max": 50452.18,
+      "description": "This is a newly created role sitting at the intersection of Commercial Finance, Growth and Technology. The successful candidate will become the go-to person for turning raw data into reporting and trend analysis that drives commercial and growth decision-making across the business, spanning customer, membership, trade, and operational performance. This role is being created at a pivotal moment. We are in a high growth stage, mid-migration to a new data warehouse, consolidating reporting across \u2026",
+      "created": "2026-08-17T16:58:53Z",
+      "id": "5845316773",
+      "salary_min": 50452.18,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5845316773?utm_medium=api&utm_source=d5da9c84",
+      "latitude": 51.503378,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "title": "Data Analyst",
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0NTMxNjc3MyIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.SBSAkEyaredFvVnlOnN45JnokyzxuBfaqTcB4ogQ6GI"
+    },
+    {
+      "latitude": 52.026185,
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "title": "Data Analyst",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4Njc1MjQzOCIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.eGNGp0vFZsVuzXPgMjbCECinxuHcQwcy15H9YyUEmSE",
+      "salary_is_predicted": "1",
+      "contract_time": "full_time",
+      "longitude": -1.138237,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Avara Foods"
+      },
+      "location": {
+        "area": [
+          "UK",
+          "East Midlands",
+          "Northamptonshire",
+          "Brackley",
+          "Turweston"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Turweston, Brackley"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-07-03T12:12:16Z",
+      "description": "Who are we, and what do we do? You may not have heard of us, but there\u2019s a good chance you\u2019ve enjoyed our products. Avara Foods is one of the UK\u2019s leading food businesses, supplying chicken and turkey to the country\u2019s major supermarkets and well-known restaurants. We own and manage our entire supply chain, from farms to factory and all the way to the customer door \u2013 meaning we have careers that cover a whole range of functions. We have major processing sites across England and an agricultural n\u2026",
+      "salary_max": 43864.47,
+      "id": "5786752438",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5786752438?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=C3BEB49FF7D2E232E93C5A1D568371D8550ADBAD",
+      "salary_min": 43864.47
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Broadbottom, Hyde",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "North West England",
+          "Greater Manchester",
+          "Hyde",
+          "Broadbottom"
+        ]
+      },
+      "longitude": -2.031758,
+      "company": {
+        "display_name": "MWH Treatment",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5780350523?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=6A23DE6B7BB92F746B2C2364BA5C6F4DEC97AC98",
+      "salary_min": 50579.12,
+      "id": "5780350523",
+      "description": "We are looking to strengthen our Data Management team with an Data Analyst based at the Hattersley office with hybrid working available. You will report directly to the Head of Strategy and PMO, and the role purpose is to develop, implement, manage, continually review and refine ESD\u2019s information governance of, and to promote good practice in, the management of all data pertaining to the measured performance of ESD's prescribed activities. Prepare and present reliable data for monthly Operation\u2026",
+      "created": "2026-06-28T16:43:51Z",
+      "salary_max": 50579.12,
+      "title": "Data Analyst",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "latitude": 53.443525,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4MDM1MDUyMyIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.6VxrCqd693ueL6r5pz4fHvmTmfCF-cx6Lxgvo73-whY",
+      "salary_is_predicted": "1"
+    },
+    {
+      "salary_min": 48532.52,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5738736752?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=034E4334AFE619E8E568C70F8F3AD91DC0A12305",
+      "id": "5738736752",
+      "salary_max": 48532.52,
+      "created": "2026-05-23T13:10:53Z",
+      "description": "We are looking to strengthen our Data Management team with an Data Analyst based at the Stepps office with hybrid working available. You will report directly to the Head of Strategy and PMO, and the role purpose is to develop, implement, manage, continually review and refine ESD\u2019s information governance of, and to promote good practice in, the management of all data pertaining to the measured performance of ESD's prescribed activities. Prepare and present reliable data for monthly Operational, \u2026",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Stepps, North Lanarkshire",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "Scotland",
+          "North Lanarkshire",
+          "Stepps"
+        ]
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "MWH Treatment"
+      },
+      "longitude": -4.129929,
+      "contract_time": "full_time",
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1NzM4NzM2NzUyIn0.NW5NkFSrzZ2Z1WLdFIcoy0l9TYwfo_6FJ_Uf3ekWKMo",
+      "title": "Data Analyst",
+      "latitude": 55.893844,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      }
+    },
+    {
+      "latitude": 55.046799,
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "title": "Data Analyst",
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODYyMjc3NTI4In0.Ye2m_BDuB21qBHo_42NUbAWfX4rPIvkjXZQ7RK_KGWQ",
+      "contract_time": "full_time",
+      "longitude": -1.70729,
+      "company": {
+        "display_name": "Airbus",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "North East England",
+          "Tyne & Wear",
+          "Newcastle Upon Tyne",
+          "Prestwick"
+        ],
+        "display_name": "Prestwick, Newcastle Upon Tyne"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Job Description: Data Analyst Location: Prestwick, Ayrshire Hours: 37 hours per week (half\u2011day Friday) Type: Full\u2011time Salary: \u00a344,348 Travel Required: Occasional Work Location: Site\u2011based (100%) Security Checks: BPSS, Disclosure Scotland, pre\u2011employment medical (including drug and alcohol testing) Join One of Ayrshire\u2019s Largest Engineering Employers Prestwick Aerosystems continues Ayrshire\u2019s long\u2011standing aircraft manufacturing tradition. From our Prestwick site, we manufacture aircraft wing s\u2026",
+      "created": "2026-08-30T16:21:01Z",
+      "salary_max": 49304.04,
+      "id": "5862277528",
+      "contract_type": "permanent",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5862277528?se=jlaprv2k8RGuf_eQ2VVBRA&utm_medium=api&utm_source=d5da9c84&v=3EF0FEF548350101C6F86DD5EDE29695E0F1C754",
+      "salary_min": 49304.04
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Bristol, South West England",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "South West England",
+          "Bristol"
+        ]
+      },
+      "company": {
+        "display_name": "Red Recruitment",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -2.5919,
+      "salary_min": 31200,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5829135139?utm_medium=api&utm_source=d5da9c84",
+      "contract_type": "contract",
+      "id": "5829135139",
+      "salary_max": 31200,
+      "description": "Data Analyst Red Recruitment is recruiting a switched-on and detail-oriented Data Analyst to join an innovative fintech organisation in Bristol on a four-week temporary contract. Working within the Product team, you will help ensure the data used by an AI-powered platform is reliable and accurate. You will write and refine instructions for AI models, test data extractions and manually review the results. This is an excellent opportunity for someone who is curious about AI, enjoys solving proble\u2026",
+      "created": "2026-08-05T15:16:57Z",
+      "title": "Data Analyst",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "latitude": 51.455299,
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgyOTEzNTEzOSIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.a8Bm_9KKOuOCsD-z_Umm4bydwLNqW5YiZkwIIklmj0U"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODU0MzY2MjA5In0.twaWt7sEuN9bd_wZgLLlctq1X7DepfbFSl7P8mTwU2s",
+      "salary_is_predicted": "0",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "latitude": 52.4006,
+      "title": "Data Analyst",
+      "salary_max": 47840,
+      "created": "2026-08-24T13:12:54Z",
+      "description": "Data Analyst 10-Month Contract Solihull | Hybrid Working \u00a318/hour PAYE // \u00a323/hour Umbrella REED Technology are recruiting for an experienced Data Analyst to join a well-established organisation on a 10-month contract basis. This role offers the opportunity to work within a business intelligence and reporting function, supporting stakeholders across the organisation through the delivery of high-quality data analysis, management information, and performance reporting. As a Data Analyst, you will\u2026",
+      "id": "5854366209",
+      "salary_min": 37440,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5854366209?utm_medium=api&utm_source=d5da9c84",
+      "contract_type": "contract",
+      "company": {
+        "display_name": "Reed Technology",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "longitude": -1.825874,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "West Midlands",
+          "Solihull",
+          "Shirley",
+          "Dickens Heath"
+        ],
+        "display_name": "Dickens Heath, Shirley"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "location": {
+        "display_name": "Pound Hill, Crawley",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "South East England",
+          "West Sussex",
+          "Crawley",
+          "Pound Hill"
+        ]
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Experis"
+      },
+      "longitude": -0.157764,
+      "salary_min": 30000,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5849817799?utm_medium=api&utm_source=d5da9c84",
+      "salary_max": 35000,
+      "description": "Data Analyst An established home healthcare provider, working in close partnership with the NHS, is looking to hire a Reporting Data Analyst to join their growing Business Intelligence team. As part of a leading European home care group, this is a truly patient-focused organisation where improving lives sits at the heart of everything they do! If you enjoy building high-quality Power BI dashboards and turning business challenges into reliable data solutions, this is a great opportunity with a r\u2026",
+      "created": "2026-08-20T17:02:28Z",
+      "id": "5849817799",
+      "latitude": 51.117643,
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "title": "Data Analyst",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0OTgxNzc5OSIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.n9XPm3MQXP8wYlD3nZVJH3-hYGfJj1G_e1iPu-nRnTw",
+      "salary_is_predicted": "0"
+    },
+    {
+      "location": {
+        "display_name": "Stirling, County Stirling",
+        "area": [
+          "UK",
+          "Scotland",
+          "County Stirling",
+          "Stirling"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "longitude": -3.93588,
+      "company": {
+        "display_name": "Experis",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5849817958?utm_medium=api&utm_source=d5da9c84",
+      "salary_min": 30000,
+      "description": "Data Analyst An established home healthcare provider, working in close partnership with the NHS, is looking to hire a Reporting Data Analyst to join their growing Business Intelligence team. As part of a leading European home care group, this is a truly patient-focused organisation where improving lives sits at the heart of everything they do! If you enjoy building high-quality Power BI dashboards and turning business challenges into reliable data solutions, this is a great opportunity with a r\u2026",
+      "created": "2026-08-20T17:02:36Z",
+      "salary_max": 35000,
+      "id": "5849817958",
+      "latitude": 56.1194,
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "title": "Data Analyst",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODQ5ODE3OTU4In0.RL18RIM1odUo5yKI7BgJgDES1xVP5IFZNiG6vuAoBmc",
+      "salary_is_predicted": "0"
+    },
+    {
+      "salary_min": 42974.89,
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5832278871?utm_medium=api&utm_source=d5da9c84",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODMyMjc4ODcxIn0.meLd5dIHrW4WKFFYH2UxumZm2c7s6p9yx10H7_N7Ve4",
+      "salary_is_predicted": "1",
+      "salary_max": 42974.89,
+      "description": "Data Analyst (Fully Remote - 3 month - Part Time/Approximately 10-15 days utilisation over the course of 3 months) Our client, based in Heathrow, a leading aviation organisation are looking for a data analyst on a short term basis. The role will suit someone used to taking on contracts of short or part time nature and assisting with data analysis in a short form/consultative capacity. It is fully remote. The Data Analyst is responsible for collecting, validating, analysing, and interpreting dat\u2026",
+      "created": "2026-08-07T19:28:05Z",
+      "id": "5832278871",
+      "location": {
+        "display_name": "UK",
+        "area": [
+          "UK"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "part_time",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Carbon 60"
+      },
+      "title": "Data Analyst"
+    },
+    {
+      "title": "Data Analyst",
+      "latitude": 51.4356,
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODM1Nzk4NTc1In0.jQ5Cf_MFPaawUPdkfyNwTWOIE0GYfbmV7dutchh6uS8",
+      "salary_is_predicted": "0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Hypercreate Ltd"
+      },
+      "longitude": -0.158653,
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "UK",
+          "London",
+          "South West London",
+          "Tooting"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Tooting, South West London"
+      },
+      "id": "5835798575",
+      "salary_max": 35000,
+      "description": "We are partnering with a fantastic client who is currently looking for an inquisitive and detail-oriented Data Analyst to join their data and analytics team. Our client relies heavily on data-driven insights to guide their business strategy, and they need a capable analyst to help uncover trends, build reports, and translate raw data into actionable intelligence. If you have a passion for numbers and a talent for telling stories with data, this role offers an excellent opportunity to make a tan\u2026",
+      "created": "2026-08-10T17:41:48Z",
+      "salary_min": 29000,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5835798575?utm_medium=api&utm_source=d5da9c84"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzMjIwNTU1NyIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.djl3KwtWV9LyP5e9A1-qVd5_Uf5NNflRX0esvey22ok",
+      "salary_is_predicted": "0",
+      "title": "Data Analyst",
+      "latitude": 51.540965,
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5832205557?utm_medium=api&utm_source=d5da9c84",
+      "salary_min": 29000,
+      "id": "5832205557",
+      "created": "2026-08-07T17:30:54Z",
+      "description": "We are partnering with a fantastic client who is currently looking for an inquisitive and detail-oriented Data Analyst to join their data and analytics team. Our client relies heavily on data-driven insights to guide their business strategy, and they need a capable analyst to help uncover trends, build reports, and translate raw data into actionable intelligence. If you have a passion for numbers and a talent for telling stories with data, this role offers an excellent opportunity to make a tan\u2026",
+      "salary_max": 35000,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "UK",
+          "London",
+          "East London",
+          "Stratford"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Stratford, East London"
+      },
+      "longitude": -0.01022,
+      "company": {
+        "display_name": "Hypercreate Ltd",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "full_time"
+    },
+    {
+      "salary_is_predicted": "1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODM3MTIwOTA5In0.WUSRa-pMo81cMKRDEN_IWHhIc2hrDeEWq8d1M-gE6NA",
+      "latitude": 52.460083,
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "Data Analyst",
+      "salary_min": 39215.82,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5837120909?utm_medium=api&utm_source=d5da9c84",
+      "salary_max": 39215.82,
+      "created": "2026-08-11T19:45:01Z",
+      "description": "The Opportunity: Data Analyst As a Data Analyst, you will primarily focus on day-to-day BAU (business as usual) reporting. This will include working on data and reporting casework and delivering one-off analytical reports and commercial analysis. Additionally, you will work with the wider team and assist in various ad-hoc data and reporting projects as required. Who are we? Based in Edgbaston, Birmingham, we offer solutions to manage spend effectively and improve performance, working with both \u2026",
+      "id": "5837120909",
+      "location": {
+        "display_name": "Balsall Heath, Birmingham",
+        "area": [
+          "UK",
+          "West Midlands",
+          "Birmingham",
+          "Balsall Heath"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "HealthTrust Europe"
+      },
+      "longitude": -1.902086
+    },
+    {
+      "salary_min": 66560,
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5858628580?utm_medium=api&utm_source=d5da9c84",
+      "id": "5858628580",
+      "salary_max": 76180,
+      "created": "2026-08-27T20:28:48Z",
+      "description": "Data Analyst: SQL Duration: 6 months initial contact Rate: Band 7 IR35: In scope Location: Remote (1 day on site in Wakefield every 2 weeks) We are seeking an experienced Data Analyst to join a large public sector healthcare organisation on an initial 6-month contract.This is an excellent opportunity for a highly analytical professional who enjoys investigating complex datasets, identifying trends, producing actionable insights and supporting operational decision-making through data-driven reco\u2026",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "UK",
+          "Yorkshire And The Humber",
+          "West Yorkshire",
+          "Wakefield",
+          "Kirkhamgate"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Kirkhamgate, Wakefield"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Hays Technology"
+      },
+      "longitude": -1.549994,
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODU4NjI4NTgwIn0.K4A7fDVGy7772OQytWrFl8Ndsl2SZzrk2d0RQdqkaXY",
+      "title": "Data Analyst",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "latitude": 53.701636
+    },
+    {
+      "title": "Data Analyst",
+      "latitude": 51.522202,
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODQyMDYxMDE1In0.3zyLaqFeUBiBO9LVFqUxAl_fB3l-vaOVFb_L0MK1NSQ",
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "display_name": "Marylebone, North West London",
+        "area": [
+          "UK",
+          "London",
+          "North West London",
+          "Marylebone"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "longitude": -0.163105,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Forward Assist Recruitment"
+      },
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5842061015?utm_medium=api&utm_source=d5da9c84",
+      "contract_type": "permanent",
+      "salary_min": 100000,
+      "id": "5842061015",
+      "description": "An exciting Data Analyst role with a salary of \u00a3100,000 plus bonus and career progression opportunities for a permanent full-time role based in our Marylebone, London office. We are offering a fantastic opportunity for an experienced Data Analyst with an immediate start at a market leading, dynamic and renowned property, technology and innovative, technology-based car parking company. Our client is a market leading, renowned UK business, established over 50 years ago. The company operates over \u2026",
+      "created": "2026-08-14T18:09:48Z",
+      "salary_max": 100000
+    },
+    {
+      "title": "Data Analyst",
+      "latitude": 50.470617,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamxhcHJ2Mms4Ukd1Zl9lUTJWVkJSQSIsImkiOiI1ODQwNjM1NjA5In0.ukbzqtj-SftGtLI_Z98RODGfa4Q6J4XrI78rwWp777E",
+      "longitude": -4.301132,
+      "company": {
+        "display_name": "Rise Technical Recruitment",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "UK",
+          "South West England",
+          "Cornwall",
+          "Saltash",
+          "Pillaton"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Pillaton, Saltash"
+      },
+      "id": "5840635609",
+      "created": "2026-08-13T19:48:22Z",
+      "description": "Data Analyst Plymouth \u00a336,070  37 days holiday  Local Government Pension  breakfast and lunch  many more benefits. Are you an experienced Data Analyst with strong SQL and data visualisation skills? Do you want to join a growing team where you can use your analytical expertise to improve business performance, develop modern reporting systems and have a real impact on how data is used across an organisation? This forward-thinking education provider is investing heavily in its Data and MIS functio\u2026",
+      "salary_max": 36000,
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5840635609?utm_medium=api&utm_source=d5da9c84",
+      "salary_min": 36000
+    },
+    {
+      "salary_max": 48702,
+      "created": "2026-08-13T15:50:12Z",
+      "description": "Data Analyst \u2013 CAD - London/Hybrid | \u00a341,400\u2013\u00a348,702  Benefits We are recruiting for a Data Analyst \u2013 CAD to join a team delivering a major transport infrastructure development. You will be responsible for assessing, analysing and assuring CAD data received from consultants, suppliers and delivery partners, ensuring it meets contractual, technical and Digital Engineering standards. You will manage data exchanges through the Common Data Environment (CDE), identify data quality issues and determi\u2026",
+      "id": "5840362130",
+      "salary_min": 41400,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5840362130?utm_medium=api&utm_source=d5da9c84",
+      "contract_type": "contract",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "CPR"
+      },
+      "longitude": 0.786309,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "Eastern England",
+          "Norfolk",
+          "Thetford",
+          "Euston"
+        ],
+        "display_name": "Euston, Thetford"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MDM2MjEzMCIsInMiOiJqbGFwcnYyazhSR3VmX2VRMlZWQlJBIn0.Fy8dl0EUtjqGuz2YAiYrD__H25m026oqMGaWF7SBSsE",
+      "latitude": 52.379002,
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "title": "Data Analyst"
+    }
+  ]
+}

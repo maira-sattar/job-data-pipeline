@@ -1,0 +1,61 @@
+[2026-08-31T05:34:26.380+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-08-31T05:34:26.410+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: job_market_etl_pipeline.load manual__2026-08-31T05:34:15.324515+00:00 [queued]>
+[2026-08-31T05:34:26.419+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: job_market_etl_pipeline.load manual__2026-08-31T05:34:15.324515+00:00 [queued]>
+[2026-08-31T05:34:26.420+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-08-31T05:34:26.438+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): load> on 2026-08-31 05:34:15.324515+00:00
+[2026-08-31T05:34:26.445+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62: DeprecationWarning: This process (pid=311) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-08-31T05:34:26.447+0000] {standard_task_runner.py:64} INFO - Started process 313 to run task
+[2026-08-31T05:34:26.447+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'job_market_etl_pipeline', 'load', 'manual__2026-08-31T05:34:15.324515+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/retail_job_pipeline_dag.py', '--cfg-path', '/tmp/tmpb4pcvyig']
+[2026-08-31T05:34:26.450+0000] {standard_task_runner.py:91} INFO - Job 21: Subtask load
+[2026-08-31T05:34:26.506+0000] {task_command.py:426} INFO - Running <TaskInstance: job_market_etl_pipeline.load manual__2026-08-31T05:34:15.324515+00:00 [running]> on host 0842a0953854
+[2026-08-31T05:34:26.635+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='job_market_etl_pipeline' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2026-08-31T05:34:15.324515+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-31T05:34:15.324515+00:00'
+[2026-08-31T05:34:26.639+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-08-31T05:34:26.641+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-08-31T05:34:26.642+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/src && python load.py']
+[2026-08-31T05:34:26.654+0000] {subprocess.py:86} INFO - Output:
+[2026-08-31T05:34:28.549+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-08-31T05:34:28.549+0000] {subprocess.py:93} INFO -   File "/opt/***/src/load.py", line 13, in <module>
+[2026-08-31T05:34:28.553+0000] {subprocess.py:93} INFO -     client = bigquery.Client(project=project_id)
+[2026-08-31T05:34:28.553+0000] {subprocess.py:93} INFO -              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-08-31T05:34:28.554+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/google/cloud/bigquery/client.py", line 241, in __init__
+[2026-08-31T05:34:28.554+0000] {subprocess.py:93} INFO -     super(Client, self).__init__(
+[2026-08-31T05:34:28.555+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 321, in __init__
+[2026-08-31T05:34:28.555+0000] {subprocess.py:93} INFO -     Client.__init__(
+[2026-08-31T05:34:28.556+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 178, in __init__
+[2026-08-31T05:34:28.556+0000] {subprocess.py:93} INFO -     credentials, _ = google.auth.default(scopes=scopes)
+[2026-08-31T05:34:28.557+0000] {subprocess.py:93} INFO -                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-08-31T05:34:28.557+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/google/auth/_default.py", line 657, in default
+[2026-08-31T05:34:28.560+0000] {subprocess.py:93} INFO -     credentials, project_id = checker()
+[2026-08-31T05:34:28.560+0000] {subprocess.py:93} INFO -                               ^^^^^^^^^
+[2026-08-31T05:34:28.561+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/google/auth/_default.py", line 650, in <lambda>
+[2026-08-31T05:34:28.561+0000] {subprocess.py:93} INFO -     lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+[2026-08-31T05:34:28.562+0000] {subprocess.py:93} INFO -             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-08-31T05:34:28.562+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/google/auth/_default.py", line 270, in _get_explicit_environ_credentials
+[2026-08-31T05:34:28.562+0000] {subprocess.py:93} INFO -     credentials, project_id = load_credentials_from_file(
+[2026-08-31T05:34:28.563+0000] {subprocess.py:93} INFO -                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-08-31T05:34:28.566+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/google/auth/_default.py", line 114, in load_credentials_from_file
+[2026-08-31T05:34:28.566+0000] {subprocess.py:93} INFO -     raise exceptions.DefaultCredentialsError(
+[2026-08-31T05:34:28.567+0000] {subprocess.py:93} INFO - google.auth.exceptions.DefaultCredentialsError: File credentials.json was not found.
+[2026-08-31T05:34:28.705+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-08-31T05:34:28.706+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-08-31T05:34:28.719+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-08-31T05:34:28.724+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=job_market_etl_pipeline, task_id=load, run_id=manual__2026-08-31T05:34:15.324515+00:00, execution_date=20260831T053415, start_date=20260831T053426, end_date=20260831T053428
+[2026-08-31T05:34:28.744+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 21 for task load (Bash command failed. The command returned a non-zero exit code 1.; 313)
+[2026-08-31T05:34:28.758+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2026-08-31T05:34:28.780+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-08-31T05:34:28.783+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

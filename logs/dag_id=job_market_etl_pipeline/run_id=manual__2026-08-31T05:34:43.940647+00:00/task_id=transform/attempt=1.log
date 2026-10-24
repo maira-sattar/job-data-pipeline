@@ -1,0 +1,1074 @@
+[2026-08-31T05:34:52.044+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-08-31T05:34:52.073+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: job_market_etl_pipeline.transform manual__2026-08-31T05:34:43.940647+00:00 [queued]>
+[2026-08-31T05:34:52.082+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: job_market_etl_pipeline.transform manual__2026-08-31T05:34:43.940647+00:00 [queued]>
+[2026-08-31T05:34:52.083+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-08-31T05:34:52.100+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): transform> on 2026-08-31 05:34:43.940647+00:00
+[2026-08-31T05:34:52.107+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62: DeprecationWarning: This process (pid=338) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-08-31T05:34:52.109+0000] {standard_task_runner.py:64} INFO - Started process 340 to run task
+[2026-08-31T05:34:52.109+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'job_market_etl_pipeline', 'transform', 'manual__2026-08-31T05:34:43.940647+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/retail_job_pipeline_dag.py', '--cfg-path', '/tmp/tmpxwwq439m']
+[2026-08-31T05:34:52.112+0000] {standard_task_runner.py:91} INFO - Job 23: Subtask transform
+[2026-08-31T05:34:52.171+0000] {task_command.py:426} INFO - Running <TaskInstance: job_market_etl_pipeline.transform manual__2026-08-31T05:34:43.940647+00:00 [running]> on host 0842a0953854
+[2026-08-31T05:34:52.298+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='job_market_etl_pipeline' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2026-08-31T05:34:43.940647+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-08-31T05:34:43.940647+00:00'
+[2026-08-31T05:34:52.301+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-08-31T05:34:52.302+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-08-31T05:34:52.303+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/src && python transform.py']
+[2026-08-31T05:34:52.316+0000] {subprocess.py:86} INFO - Output:
+[2026-08-31T05:34:53.546+0000] {subprocess.py:93} INFO - Reading: data/bronze/jobs_raw_20260831_053447.json
+[2026-08-31T05:34:53.546+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.547+0000] {subprocess.py:93} INFO - Shape: (1, 10)
+[2026-08-31T05:34:53.547+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.547+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.548+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.548+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.548+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.549+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.549+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.549+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.550+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.550+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.550+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.551+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.551+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.551+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.552+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.552+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.553+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.553+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.554+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.554+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.555+0000] {subprocess.py:93} INFO - Shape: (2, 10)
+[2026-08-31T05:34:53.555+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.555+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.556+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.556+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.557+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.557+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.557+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.558+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.558+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.559+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.559+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.559+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.560+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.560+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.560+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.561+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.561+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.561+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.562+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.562+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.562+0000] {subprocess.py:93} INFO - Shape: (3, 10)
+[2026-08-31T05:34:53.563+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.563+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.563+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.564+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.564+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.565+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.565+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.565+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.566+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.566+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.567+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.567+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.568+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.568+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.568+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.569+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.569+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.569+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.570+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.570+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.570+0000] {subprocess.py:93} INFO - Shape: (4, 10)
+[2026-08-31T05:34:53.571+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.571+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.571+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.572+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.572+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.573+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.573+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.573+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.574+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.574+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.574+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.575+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.575+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.576+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.576+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.577+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.577+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.577+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.578+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.578+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.578+0000] {subprocess.py:93} INFO - Shape: (5, 10)
+[2026-08-31T05:34:53.579+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.579+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.579+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.580+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.580+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.580+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.581+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.581+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.581+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.582+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.582+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.582+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.583+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.583+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.583+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.584+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.584+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.584+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.585+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.585+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.586+0000] {subprocess.py:93} INFO - Shape: (6, 10)
+[2026-08-31T05:34:53.586+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.586+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.587+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.587+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.588+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.588+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.588+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.589+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.589+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.589+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.590+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.590+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.590+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.591+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.591+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.591+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.592+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.592+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.592+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.593+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.593+0000] {subprocess.py:93} INFO - Shape: (7, 10)
+[2026-08-31T05:34:53.593+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.594+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.594+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.594+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.594+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.595+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.595+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.595+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.595+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.596+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.596+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.596+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.596+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.597+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.597+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.597+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.598+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.598+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.598+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.598+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.599+0000] {subprocess.py:93} INFO - Shape: (8, 10)
+[2026-08-31T05:34:53.599+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.599+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.600+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.600+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.600+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.600+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.601+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.601+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.601+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.601+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.602+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.602+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.602+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.603+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.603+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.603+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.604+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.604+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.604+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.605+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.605+0000] {subprocess.py:93} INFO - Shape: (9, 10)
+[2026-08-31T05:34:53.605+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.606+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.606+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.606+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.607+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.607+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.607+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.608+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.608+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.608+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.609+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.609+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.609+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.609+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.610+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.610+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.610+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.611+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.611+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.611+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.611+0000] {subprocess.py:93} INFO - Shape: (10, 10)
+[2026-08-31T05:34:53.612+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.612+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.612+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.613+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.613+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.613+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.613+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.614+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.614+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.615+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.615+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.615+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.616+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.616+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.616+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.617+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.618+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.618+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.618+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.619+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.619+0000] {subprocess.py:93} INFO - Shape: (11, 10)
+[2026-08-31T05:34:53.619+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.620+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.620+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.621+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.621+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.622+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.622+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.623+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.623+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.623+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.624+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.624+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.625+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.625+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.625+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.626+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.626+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.627+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.627+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.627+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.628+0000] {subprocess.py:93} INFO - Shape: (12, 10)
+[2026-08-31T05:34:53.628+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.628+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.629+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.629+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.630+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.630+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.630+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.631+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.631+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.632+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.632+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.633+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.633+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.634+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.634+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.634+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.635+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.635+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.635+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.636+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.636+0000] {subprocess.py:93} INFO - Shape: (13, 10)
+[2026-08-31T05:34:53.636+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.637+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.637+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.637+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.638+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.638+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.638+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.639+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.639+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.640+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.640+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.641+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.641+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.641+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.642+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.642+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.643+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.643+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.643+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.644+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.644+0000] {subprocess.py:93} INFO - Shape: (14, 10)
+[2026-08-31T05:34:53.644+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.645+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.645+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.646+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.646+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.647+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.647+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.648+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.648+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.649+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.649+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.650+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.650+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.651+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.651+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.651+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.652+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.652+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.652+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.653+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.653+0000] {subprocess.py:93} INFO - Shape: (15, 10)
+[2026-08-31T05:34:53.654+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.654+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.654+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.695+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.696+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.696+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.696+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.697+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.697+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.697+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.698+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.698+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.699+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.699+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.700+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.700+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.700+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.701+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.701+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.701+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.702+0000] {subprocess.py:93} INFO - Shape: (16, 10)
+[2026-08-31T05:34:53.702+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.703+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.703+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.704+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.704+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.704+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.705+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.705+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.705+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.706+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.706+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.706+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.707+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.707+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.707+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.708+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.708+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.708+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.709+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.709+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.709+0000] {subprocess.py:93} INFO - Shape: (17, 10)
+[2026-08-31T05:34:53.710+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.710+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.710+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.711+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.711+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.711+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.712+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.712+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.712+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.713+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.713+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.713+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.714+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.714+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.715+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.715+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.716+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.716+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.716+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.717+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.717+0000] {subprocess.py:93} INFO - Shape: (18, 10)
+[2026-08-31T05:34:53.717+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.718+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.718+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.718+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.719+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.719+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.719+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.720+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.720+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.720+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.721+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.721+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.721+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.722+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.722+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.722+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.723+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.723+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.724+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.724+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.724+0000] {subprocess.py:93} INFO - Shape: (19, 10)
+[2026-08-31T05:34:53.725+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.725+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.726+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.726+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.727+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.727+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.727+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.728+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.728+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.728+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.729+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.729+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.729+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.730+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.730+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.730+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.731+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.731+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.731+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.732+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.732+0000] {subprocess.py:93} INFO - Shape: (20, 10)
+[2026-08-31T05:34:53.733+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.733+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.733+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.734+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.734+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.734+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.735+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.735+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.735+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.736+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.736+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.736+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.737+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.737+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.737+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.738+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.738+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.738+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.739+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.739+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.739+0000] {subprocess.py:93} INFO - Shape: (21, 10)
+[2026-08-31T05:34:53.740+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.740+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.740+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.741+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.741+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.741+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.742+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.742+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.742+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.743+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.743+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.743+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.744+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.744+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.744+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.745+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.745+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.745+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.746+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.746+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.746+0000] {subprocess.py:93} INFO - Shape: (22, 10)
+[2026-08-31T05:34:53.747+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.747+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.748+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.748+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.749+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.749+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.749+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.750+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.750+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.751+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.751+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.751+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.752+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.752+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.752+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.753+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.753+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.753+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.754+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.754+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.754+0000] {subprocess.py:93} INFO - Shape: (23, 10)
+[2026-08-31T05:34:53.755+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.755+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.755+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.756+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.756+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.757+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.757+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.757+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.758+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.758+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.759+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.759+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.759+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.760+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.760+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.761+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.761+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.761+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.762+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.762+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.762+0000] {subprocess.py:93} INFO - Shape: (24, 10)
+[2026-08-31T05:34:53.763+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.763+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.763+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.764+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.764+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.764+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.765+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.765+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.765+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.766+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.766+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.766+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.767+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.767+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.767+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.768+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.768+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.768+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.769+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.769+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.769+0000] {subprocess.py:93} INFO - Shape: (25, 10)
+[2026-08-31T05:34:53.769+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.770+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.770+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.770+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.771+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.771+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.771+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.772+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.772+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.772+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.772+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.773+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.773+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.773+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.773+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.774+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.774+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.774+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.775+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.775+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.775+0000] {subprocess.py:93} INFO - Shape: (26, 10)
+[2026-08-31T05:34:53.775+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.776+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.776+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.776+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.777+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.777+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.777+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.777+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.778+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.778+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.778+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.778+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.779+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.779+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.779+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.779+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.780+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.780+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.780+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.781+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.781+0000] {subprocess.py:93} INFO - Shape: (27, 10)
+[2026-08-31T05:34:53.781+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.782+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.782+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.782+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.783+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.783+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.783+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.783+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.784+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.784+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.784+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.785+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.785+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.785+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.786+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.786+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.786+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.787+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.787+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.787+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.787+0000] {subprocess.py:93} INFO - Shape: (28, 10)
+[2026-08-31T05:34:53.788+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.788+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.788+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.789+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.789+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.789+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.789+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.790+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.790+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.790+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.791+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.791+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.791+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.791+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.792+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.792+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.792+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.792+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.793+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.793+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.793+0000] {subprocess.py:93} INFO - Shape: (29, 10)
+[2026-08-31T05:34:53.793+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.794+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.794+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.794+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.795+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.795+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.795+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.795+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.796+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.796+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.796+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.797+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.797+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.798+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.798+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.798+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.799+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.799+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.799+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.878+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.879+0000] {subprocess.py:93} INFO - Shape: (30, 10)
+[2026-08-31T05:34:53.879+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.880+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.880+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.880+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.881+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.881+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.882+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.882+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.882+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.883+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.883+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.883+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.884+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.884+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.885+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.885+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.886+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.886+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.886+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.887+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.887+0000] {subprocess.py:93} INFO - Shape: (31, 10)
+[2026-08-31T05:34:53.888+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.888+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.889+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.889+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.889+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.890+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.890+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.890+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.891+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.891+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.892+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.892+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.892+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.893+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.893+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.893+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.894+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.894+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.894+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.895+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.895+0000] {subprocess.py:93} INFO - Shape: (32, 10)
+[2026-08-31T05:34:53.895+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.896+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.896+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.896+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.897+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.897+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.898+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.898+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.898+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.899+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.899+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.899+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.900+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.900+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.900+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.901+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.901+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.901+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.902+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.902+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.902+0000] {subprocess.py:93} INFO - Shape: (33, 10)
+[2026-08-31T05:34:53.903+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.903+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.903+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.904+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.904+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.904+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.905+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.905+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.905+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.906+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.906+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.906+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.907+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.907+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.907+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.908+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.908+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.908+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.909+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.909+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.910+0000] {subprocess.py:93} INFO - Shape: (34, 10)
+[2026-08-31T05:34:53.910+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.911+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.911+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.911+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.912+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.912+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.912+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.913+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.913+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.913+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.914+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.914+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.914+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.915+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.915+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.916+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.916+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.916+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.917+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.917+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.917+0000] {subprocess.py:93} INFO - Shape: (35, 10)
+[2026-08-31T05:34:53.918+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.918+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.918+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.919+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.919+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.919+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.920+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.920+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.921+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.921+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.921+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.922+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.922+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.922+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.923+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.923+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.923+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.924+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.924+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.925+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.925+0000] {subprocess.py:93} INFO - Shape: (36, 10)
+[2026-08-31T05:34:53.925+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.926+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.926+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.926+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.927+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.927+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.927+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.928+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.928+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.928+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.929+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.929+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.929+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.930+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.930+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.930+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.931+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.931+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.932+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.932+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.933+0000] {subprocess.py:93} INFO - Shape: (37, 10)
+[2026-08-31T05:34:53.933+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.934+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.934+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.934+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.935+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.935+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.935+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.936+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.936+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.936+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.937+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.937+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.937+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.938+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.938+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.938+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.939+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.939+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.939+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.940+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.940+0000] {subprocess.py:93} INFO - Shape: (38, 10)
+[2026-08-31T05:34:53.940+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.941+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.941+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.941+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.942+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.942+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.942+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.943+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.943+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.943+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.943+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.944+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.944+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.945+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.945+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.945+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.946+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.946+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.946+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.946+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.947+0000] {subprocess.py:93} INFO - Shape: (39, 10)
+[2026-08-31T05:34:53.947+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.947+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.948+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.948+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.948+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.949+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.949+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.949+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.949+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.950+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.950+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.950+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.951+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.951+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.951+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.951+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.952+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.952+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.952+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.952+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.953+0000] {subprocess.py:93} INFO - Shape: (40, 10)
+[2026-08-31T05:34:53.953+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.953+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.953+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.954+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.954+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.954+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.955+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.955+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.955+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.955+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.956+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.956+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.957+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.957+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.957+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.958+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.958+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.958+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.959+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.959+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.959+0000] {subprocess.py:93} INFO - Shape: (41, 10)
+[2026-08-31T05:34:53.960+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.960+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.960+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.961+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.961+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.961+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.962+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.962+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.962+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.963+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.963+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.963+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.964+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.964+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.965+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.965+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.965+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.966+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.966+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.967+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.967+0000] {subprocess.py:93} INFO - Shape: (42, 10)
+[2026-08-31T05:34:53.967+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.968+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.968+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.968+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.969+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.969+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.970+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.970+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.970+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.971+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.971+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.972+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.972+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.972+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.973+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.973+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.974+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.974+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.975+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.975+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.975+0000] {subprocess.py:93} INFO - Shape: (43, 10)
+[2026-08-31T05:34:53.976+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.976+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.977+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.977+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.977+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.978+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.978+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.978+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.979+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.979+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.979+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.980+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.980+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.981+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.981+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.982+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.982+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.983+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.983+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.983+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.984+0000] {subprocess.py:93} INFO - Shape: (44, 10)
+[2026-08-31T05:34:53.984+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.985+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.985+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.985+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.986+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.986+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.986+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.987+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.987+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.987+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.988+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.988+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.988+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:53.989+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:53.989+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:53.990+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:53.991+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.991+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:53.992+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:53.992+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:53.993+0000] {subprocess.py:93} INFO - Shape: (45, 10)
+[2026-08-31T05:34:53.993+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:53.993+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:53.994+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:53.994+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:53.995+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:53.995+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:53.996+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:53.997+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:53.997+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:53.997+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:53.998+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:53.999+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:53.999+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:54.000+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:54.000+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:54.001+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:54.001+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:54.002+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:54.002+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:54.003+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:54.003+0000] {subprocess.py:93} INFO - Shape: (46, 10)
+[2026-08-31T05:34:54.004+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:54.004+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:54.005+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:54.005+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:54.006+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:54.007+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:54.008+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:54.009+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:54.010+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:54.011+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:54.011+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:54.012+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:54.012+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:54.013+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:54.013+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:54.014+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:54.014+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:54.015+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:54.015+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:54.016+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:54.017+0000] {subprocess.py:93} INFO - Shape: (47, 10)
+[2026-08-31T05:34:54.017+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:54.018+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:54.018+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:54.018+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:54.019+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:54.019+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:54.020+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:54.020+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:54.021+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:54.021+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:54.022+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:54.022+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:54.023+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:54.023+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:54.024+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:54.024+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:54.025+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:54.026+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:54.026+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:54.027+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:54.027+0000] {subprocess.py:93} INFO - Shape: (48, 10)
+[2026-08-31T05:34:54.027+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:54.028+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:54.028+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:54.029+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:54.029+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:54.030+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:54.030+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:54.031+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:54.031+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:54.032+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:54.032+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:54.033+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:54.033+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:54.034+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:54.035+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:54.035+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:54.036+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:54.037+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:54.037+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:54.038+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:54.038+0000] {subprocess.py:93} INFO - Shape: (49, 10)
+[2026-08-31T05:34:54.039+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:54.039+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:54.040+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:54.041+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:54.041+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:54.042+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:54.042+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:54.043+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:54.044+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:54.045+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:54.046+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:54.046+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:54.047+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:54.047+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:54.048+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:54.048+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:54.049+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:54.049+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:54.050+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:54.050+0000] {subprocess.py:93} INFO - Columns: ['id', 'title', 'company', 'location', 'contract_type', 'category', 'salary_min', 'salary_max', 'created', 'description']
+[2026-08-31T05:34:54.051+0000] {subprocess.py:93} INFO - Shape: (50, 10)
+[2026-08-31T05:34:54.051+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:54.052+0000] {subprocess.py:93} INFO - Nulls per column:
+[2026-08-31T05:34:54.052+0000] {subprocess.py:93} INFO - Saved clean data to data/silver/jobs_clean_20260831_053453.csv
+[2026-08-31T05:34:54.053+0000] {subprocess.py:93} INFO - id                   0
+[2026-08-31T05:34:54.053+0000] {subprocess.py:93} INFO - title                0
+[2026-08-31T05:34:54.053+0000] {subprocess.py:93} INFO - company              0
+[2026-08-31T05:34:54.054+0000] {subprocess.py:93} INFO - location             0
+[2026-08-31T05:34:54.054+0000] {subprocess.py:93} INFO - contract_type        0
+[2026-08-31T05:34:54.055+0000] {subprocess.py:93} INFO - category             0
+[2026-08-31T05:34:54.056+0000] {subprocess.py:93} INFO - salary_min           0
+[2026-08-31T05:34:54.056+0000] {subprocess.py:93} INFO - salary_max           0
+[2026-08-31T05:34:54.057+0000] {subprocess.py:93} INFO - created              0
+[2026-08-31T05:34:54.057+0000] {subprocess.py:93} INFO - description          0
+[2026-08-31T05:34:54.058+0000] {subprocess.py:93} INFO - description_short    0
+[2026-08-31T05:34:54.058+0000] {subprocess.py:93} INFO - extracted_at         0
+[2026-08-31T05:34:54.059+0000] {subprocess.py:93} INFO - dtype: int64
+[2026-08-31T05:34:54.059+0000] {subprocess.py:93} INFO - 
+[2026-08-31T05:34:54.059+0000] {subprocess.py:93} INFO - Duplicate rows: 0
+[2026-08-31T05:34:54.060+0000] {subprocess.py:93} INFO - Duplicate IDs: 0
+[2026-08-31T05:34:54.060+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-08-31T05:34:54.061+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-08-31T05:34:54.089+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=job_market_etl_pipeline, task_id=transform, run_id=manual__2026-08-31T05:34:43.940647+00:00, execution_date=20260831T053443, start_date=20260831T053452, end_date=20260831T053454
+[2026-08-31T05:34:54.110+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-08-31T05:34:54.142+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-08-31T05:34:54.144+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

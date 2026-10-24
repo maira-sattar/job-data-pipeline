@@ -1,0 +1,18 @@
+
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Airflow generated files
+logs/
+airflow.db/
+
+# Environment and secrets
+.env
+.env.*
+
+
+credentials.json

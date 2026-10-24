@@ -1,0 +1,24 @@
+[2026-08-31T05:22:54.146+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-08-31T05:22:54.171+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: job_market_etl_pipeline.load scheduled__2026-08-30T00:00:00+00:00 [queued]>
+[2026-08-31T05:22:54.180+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: job_market_etl_pipeline.load scheduled__2026-08-30T00:00:00+00:00 [queued]>
+[2026-08-31T05:22:54.180+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-08-31T05:22:54.194+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): load> on 2026-08-30 00:00:00+00:00
+[2026-08-31T05:22:54.200+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62: DeprecationWarning: This process (pid=75) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-08-31T05:22:54.202+0000] {standard_task_runner.py:64} INFO - Started process 77 to run task
+[2026-08-31T05:22:54.202+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'job_market_etl_pipeline', 'load', 'scheduled__2026-08-30T00:00:00+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/retail_job_pipeline_dag.py', '--cfg-path', '/tmp/tmp0rt121mh']
+[2026-08-31T05:22:54.205+0000] {standard_task_runner.py:91} INFO - Job 18: Subtask load
+[2026-08-31T05:22:54.259+0000] {task_command.py:426} INFO - Running <TaskInstance: job_market_etl_pipeline.load scheduled__2026-08-30T00:00:00+00:00 [running]> on host 0842a0953854
+[2026-08-31T05:22:54.361+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='job_market_etl_pipeline' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2026-08-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-30T00:00:00+00:00'
+[2026-08-31T05:22:54.364+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-08-31T05:22:54.365+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-08-31T05:22:54.367+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', "echo 'Load task placeholder'"]
+[2026-08-31T05:22:54.376+0000] {subprocess.py:86} INFO - Output:
+[2026-08-31T05:22:54.379+0000] {subprocess.py:93} INFO - Load task placeholder
+[2026-08-31T05:22:54.379+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-08-31T05:22:54.380+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-08-31T05:22:54.407+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=job_market_etl_pipeline, task_id=load, run_id=scheduled__2026-08-30T00:00:00+00:00, execution_date=20260830T000000, start_date=20260831T052254, end_date=20260831T052254
+[2026-08-31T05:22:54.460+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-08-31T05:22:54.477+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-08-31T05:22:54.478+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

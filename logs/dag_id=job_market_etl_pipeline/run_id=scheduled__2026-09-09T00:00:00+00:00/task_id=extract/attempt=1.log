@@ -1,0 +1,25 @@
+[2026-09-10T10:58:51.588+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-09-10T10:58:51.772+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: job_market_etl_pipeline.extract scheduled__2026-09-09T00:00:00+00:00 [queued]>
+[2026-09-10T10:58:51.795+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: job_market_etl_pipeline.extract scheduled__2026-09-09T00:00:00+00:00 [queued]>
+[2026-09-10T10:58:51.797+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-09-10T10:58:51.839+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): extract> on 2026-09-09 00:00:00+00:00
+[2026-09-10T10:58:51.851+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62: DeprecationWarning: This process (pid=67) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-09-10T10:58:51.856+0000] {standard_task_runner.py:64} INFO - Started process 69 to run task
+[2026-09-10T10:58:51.855+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'job_market_etl_pipeline', 'extract', 'scheduled__2026-09-09T00:00:00+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/retail_job_pipeline_dag.py', '--cfg-path', '/tmp/tmpaai1pzf1']
+[2026-09-10T10:58:51.889+0000] {standard_task_runner.py:91} INFO - Job 41: Subtask extract
+[2026-09-10T10:58:52.183+0000] {task_command.py:426} INFO - Running <TaskInstance: job_market_etl_pipeline.extract scheduled__2026-09-09T00:00:00+00:00 [running]> on host 0842a0953854
+[2026-09-10T10:58:52.809+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='job_market_etl_pipeline' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2026-09-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-09T00:00:00+00:00'
+[2026-09-10T10:58:52.819+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-09-10T10:58:52.825+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-09-10T10:58:52.919+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/src && python extract.py']
+[2026-09-10T10:58:52.976+0000] {subprocess.py:86} INFO - Output:
+[2026-09-10T10:59:38.108+0000] {subprocess.py:93} INFO - Status code: 200
+[2026-09-10T10:59:38.113+0000] {subprocess.py:93} INFO - Saved raw data to data/bronze/jobs_raw_20260910_105854.json
+[2026-09-10T10:59:38.135+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-09-10T10:59:38.138+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-09-10T10:59:38.193+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=job_market_etl_pipeline, task_id=extract, run_id=scheduled__2026-09-09T00:00:00+00:00, execution_date=20260909T000000, start_date=20260910T105851, end_date=20260910T105938
+[2026-09-10T10:59:38.250+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-09-10T10:59:38.298+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-09-10T10:59:38.300+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

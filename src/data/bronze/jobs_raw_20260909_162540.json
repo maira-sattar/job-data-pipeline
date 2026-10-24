@@ -1,0 +1,1670 @@
+{
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "count": 1788,
+  "mean": 65299.61,
+  "results": [
+    {
+      "description": "* Collect data from databases, spreadsheets, APIs, or other sources. * Clean and prepare data for analysis. * Analyze data to identify trends, patterns, and business opportunities. * Write SQL queries to retrieve and manipulate data. * Create dashboards and reports using Power BI or Tableau. * Use Excel for data analysis, formulas, PivotTables, and reporting. * Perform basic statistical analysis. * Communicate insights and recommendations to managers and stakeholders. * Validate data accuracy a\u2026",
+      "salary_is_predicted": "0",
+      "contract_time": "full_time",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "display_name": "Milton Keynes, Buckinghamshire",
+        "area": [
+          "UK",
+          "South East England",
+          "Buckinghamshire",
+          "Milton Keynes"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "longitude": -0.7047,
+      "created": "2026-08-24T07:45:02Z",
+      "salary_min": 34000,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "display_name": "Innoviz Limited",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Analyst",
+      "contract_type": "permanent",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5854221427?utm_medium=api&utm_source=d5da9c84",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODU0MjIxNDI3In0.ZGOgmIUuHXUE6gInR_LLGELSyyrBHUGhIfAkk59E8kQ",
+      "id": "5854221427",
+      "latitude": 52.042198,
+      "salary_max": 45000
+    },
+    {
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5854394670?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=F6D360CECD7D8BB3C11AC868B56807B8C24922D2",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "UK",
+        "area": [
+          "UK"
+        ]
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NDM5NDY3MCIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.syQzcLeT2SplOIX3IgPYkyVIQgpDQ250g7qsAk1jwwk",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "1",
+      "contract_time": "full_time",
+      "title": "Data Analyst, Operations",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Brainlabs"
+      },
+      "description": "Brainlabs is the independent, founder-led agency building the future of media. We have over 1000 Brainlabbers based across the global, all united through the 12 principles laid out in our Culture Code. Were full-service, with people and AI agents working side by side, all aligned to one thing: maximizing our clients revenue through a genuinely scientific approach to media. If you want to help play your part in achieving this for the worlds biggest brands in an environment that will support and \u2026",
+      "salary_max": 63044.95,
+      "salary_min": 63044.95,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-24T15:08:37Z",
+      "id": "5854394670"
+    },
+    {
+      "latitude": 51.503378,
+      "salary_max": 71829.23,
+      "id": "5838381458",
+      "contract_type": "contract",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzODM4MTQ1OCIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.9p5a0mpE_AD1DFDfW4GU9ro2F145cwHmkjusVmLcEZQ",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5838381458?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=16724A4F9650B061C6F788C6F84950F31715427D",
+      "title": "Lead Data Analyst",
+      "company": {
+        "display_name": "Wise",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "created": "2026-08-12T15:38:55Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 71829.23,
+      "longitude": -0.139134,
+      "contract_time": "full_time",
+      "salary_is_predicted": "1",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "London"
+        ],
+        "display_name": "London, UK"
+      },
+      "category": {
+        "label": "Accounting & Finance Jobs",
+        "tag": "accounting-finance-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "Wise is a global technology company, building the best way to move and manage the world\u2019s money. Min fees. Max ease. Full speed. Whether people and businesses are sending money to another country, spending abroad, or making and receiving international payments, Wise is on a mission to make their lives easier and save them money. As part of our team, you will be helping us create an entirely new network for the worlds money. For everyone, everywhere. Job Description We are looking for a Lead Dat\u2026"
+    },
+    {
+      "salary_is_predicted": "1",
+      "contract_time": "full_time",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "London, UK",
+        "area": [
+          "UK",
+          "London"
+        ]
+      },
+      "description": "The Risk Technology Data Analyst will be a key member of the Risk Management Technology team, contributing to the development and enhancement of risk systems. This role offers an opportunity to work with a dynamic team, utilizing cutting-edge technologies to manage and mitigate risks across the enterprise. Responsibilities Collaborate with Risk Management to gather and analyze requirements for risk systems. Build and enhance data analysis processes, including asset valuations and custom measure\u2026",
+      "created": "2026-08-29T15:29:41Z",
+      "salary_min": 46263.4,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": -0.139134,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5861182353?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=9B7D2E1142A3B2B572CCAA707DBE965F707754DC",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODYxMTgyMzUzIn0.Awd1ZZiFZiFoAm1a54NMgmFShq5QXwepfg0HSimW_OM",
+      "company": {
+        "display_name": "BGC Partners",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Risk Technology Data Analyst",
+      "latitude": 51.503378,
+      "salary_max": 46263.4,
+      "id": "5861182353"
+    },
+    {
+      "title": "Staff Data Analyst, Operations",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Wise"
+      },
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5838383439?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=D6B8AFFFD1A039CBFADDF1DB5DAC87CD80F8A8F6",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODM4MzgzNDM5In0.7Ovw0PgMDncrNkz1uAgb-LZaxUA57DCMCjNtJH6CGbs",
+      "contract_type": "contract",
+      "id": "5838383439",
+      "salary_max": 88466.81,
+      "latitude": 51.503378,
+      "description": "Wise is a global technology company, building the best way to move and manage the world\u2019s money. Min fees. Max ease. Full speed. Whether people and businesses are sending money to another country, spending abroad, or making and receiving international payments, Wise is on a mission to make their lives easier and save them money. As part of our team, you will be helping us create an entirely new network for the worlds money. For everyone, everywhere. Job Description At Wise, our Staff Analyst is\u2026",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "London, UK",
+        "area": [
+          "UK",
+          "London"
+        ]
+      },
+      "salary_is_predicted": "1",
+      "contract_time": "full_time",
+      "longitude": -0.139134,
+      "salary_min": 88466.81,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-12T15:39:11Z"
+    },
+    {
+      "id": "5876749281",
+      "latitude": 52.483002,
+      "salary_max": 65000,
+      "title": "Trainee Data Analyst No Experience Required",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "NEWTO TRAINING LIMITED"
+      },
+      "contract_type": "permanent",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg3Njc0OTI4MSIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.2MEtVFxY06v6sCs9N1U9tS2kiQ1DafsKEP0kQmcxZlM",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5876749281?utm_medium=api&utm_source=d5da9c84",
+      "longitude": -1.89359,
+      "created": "2026-09-09T07:41:46Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 65000,
+      "description": "Trainee Data Analyst No Experience Required From \u00a330,000 - \u00a365,000. *This is a self-funded career programme with a guaranteed job on completion or 100% of your course fees back* Train. Certify. Get Hired. Are you looking to start a career in data but don't know where to begin? The demand for Data Analysts has grown by 20% annually, with experienced professionals earning salaries upwards of \u00a358,000. In todays digital world, data is critical to business decision-making, making the role of a Data \u2026",
+      "salary_is_predicted": "0",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "area": [
+          "UK",
+          "West Midlands",
+          "Birmingham"
+        ],
+        "display_name": "Birmingham, West Midlands",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "salary_is_predicted": "1",
+      "contract_time": "full_time",
+      "category": {
+        "label": "Accounting & Finance Jobs",
+        "tag": "accounting-finance-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "Scotland",
+          "Glasgow"
+        ],
+        "display_name": "Glasgow, Scotland"
+      },
+      "description": "Join Barclays as a Chief Data Office Data Analyst, where you will play a pivotal role in turning complex, high-volume datasets into clear, actionable insight that drives both strategic direction and day-to-day operational decisions across the organisation. You will work across analytics, governance, and business change\u2014helping ensure that data used across risk, finance, and regulatory reporting is accurate, trusted, and well-controlled. In this role, you will translate your findings into compel\u2026",
+      "created": "2026-06-13T16:43:00Z",
+      "salary_min": 55236.97,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": -4.25596,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5762642134?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=8C1C3C00C6468C2A5D0C852B33AC0B28D6704695",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1NzYyNjQyMTM0In0.8grpIl6aiZI7QCOjhkD83z2vxnxevP8--syBoB_e3HE",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Barclays"
+      },
+      "title": "Chief Data Office Data Analyst",
+      "latitude": 55.86026,
+      "salary_max": 55236.97,
+      "id": "5762642134"
+    },
+    {
+      "salary_max": 22880,
+      "latitude": 51.4103,
+      "id": "5859492510",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5859492510?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=3BA1DA314E8ACAAAC83DBD01B04E2A78C30BD2C1",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODU5NDkyNTEwIn0.o8PNBq_qDf6jeCjwgdTj0r3oitNwfwAUWmO_NLDzmcw",
+      "contract_type": "permanent",
+      "title": "Data Analyst (AI Training)",
+      "company": {
+        "display_name": "OneForma",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_min": 22880,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-28T09:16:41Z",
+      "longitude": -0.162653,
+      "category": {
+        "tag": "part-time-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Part time Jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Furzedown, South West London",
+        "area": [
+          "UK",
+          "London",
+          "South West London",
+          "Furzedown"
+        ]
+      },
+      "salary_is_predicted": "0",
+      "contract_time": "part_time",
+      "description": "We're looking for English speakers located anywhere in United Kingdom ! About the Role Join OneForma and help improve real-world map and geo-localization applications. As a Data Analyst for AI Training , you\u2019ll evaluate real user search queries to enhance search accuracy, relevance, and overall navigation experience. Purpose: Tasks may include reviewing queries like \u201cpharmacy near me\u201d or \u201crailway station\u201d and checking if the results match user intent. This is a straightforward task with no tech\u2026"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2NjUzMjk0MyIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.GOw6I5ZSRBucw7hjdNZuW6eIi-qmUQ_JBVIXm14v348",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5866532943?utm_medium=api&utm_source=d5da9c84",
+      "contract_type": "permanent",
+      "title": "Data Analyst Placement Programme No Experience Needed",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "IT Online Learning"
+      },
+      "salary_max": 65000,
+      "latitude": 52.483002,
+      "id": "5866532943",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Birmingham, West Midlands",
+        "area": [
+          "UK",
+          "West Midlands",
+          "Birmingham"
+        ]
+      },
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "salary_is_predicted": "0",
+      "description": "Data Analyst Placement Programme no experience needed From \u00a330,000 to \u00a365,000 per annum Trainee Data Analyst \u00a330,000\u00a365,000 Job Programme This is a self-funded programme that leads to employment, fees apply. Job Guarantee Complete the programme and get a job, or get your course fees back. Location: UK Wide (Remote Opportunities Available) Looking to start a career in Data Analysis? We are offering a structured pathway into Data Analysis, designed to help you enter the industry with no prior exp\u2026",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 65000,
+      "created": "2026-09-02T05:55:35Z",
+      "longitude": -1.89359
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Hackajob Ltd"
+      },
+      "title": "Data Governance Analyst",
+      "contract_type": "permanent",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5856595712?utm_medium=api&utm_source=d5da9c84",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NjU5NTcxMiIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.BMABPR0upCQGtbuVo9d7qyGaH8bTBJU42KPuxk2Dn4Q",
+      "id": "5856595712",
+      "latitude": 50.721699,
+      "salary_max": 70000,
+      "description": "hackajob is partnering directly with Vitality to hire for this role. Team - Data and Information Services Working Pattern - Hybrid - 2 days per week in the Vitality Bournemouth Office. Full time, 35 hours per week. We are happy to discuss flexible working! Top 3 skills needed for this role: Demonstrated Data Governance Expertise Strong Data Quality Analysis Proven Stakeholder Partnership What this role is all about: We're looking for a confident and influential communicator to join our Data Gov\u2026",
+      "salary_is_predicted": "0",
+      "contract_time": "full_time",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Bournemouth, Dorset",
+        "area": [
+          "UK",
+          "South West England",
+          "Dorset",
+          "Bournemouth"
+        ]
+      },
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "longitude": -1.87853,
+      "created": "2026-08-26T09:47:23Z",
+      "salary_min": 70000,
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "description": "As a Data Business Analyst at NTT DATA in London, you will play a pivotal role in delivering data-driven business solutions across sectors such as telecoms, media, banking, insurance, retail, energy, and public sector. The position requires at least 5 years\u2019 experience in data, consulting, or analytics, with expertise in data modelling, SQL, Hive, Pig, Python, R, and data visualisation tools like PowerBI, Qlik, and Tableau. You will collaborate with clients and internal teams, manage data proje\u2026",
+      "contract_time": "full_time",
+      "salary_is_predicted": "1",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "area": [
+          "UK",
+          "London"
+        ],
+        "display_name": "London, UK",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "longitude": -0.139134,
+      "created": "2026-09-01T01:36:38Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 57140.1,
+      "title": "Data Business Analyst",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Ntt Data"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MzU4NjQ2MyIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.quJTxillqXfbdyiJeacKzDXzLkY8dKMsk4LzV5na70Y",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5863586463?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=1F1D3FFEEEBA331F28760EB86DC2DE0FDA22FA8B",
+      "id": "5863586463",
+      "latitude": 51.503378,
+      "salary_max": 57140.1
+    },
+    {
+      "id": "5854537338",
+      "longitude": -1.17902,
+      "created": "2026-08-24T19:32:17Z",
+      "latitude": 50.851501,
+      "salary_min": 42000,
+      "salary_max": 44000,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Kingdom Security"
+      },
+      "title": "Data Analyst",
+      "description": "Are you an experienced Supply Chain Analyst, Data Analyst or Supply Chain Coordinator with a passion for data accuracy, reporting and continuous improvement? Do you enjoy turning complex supply chain data into meaningful insights that improve planning, inventory and operational performance? We're supporting a leading manufacturing business in Fareham who are looking to recruit a Supply Chain Data Analyst to join their Supply Chain team. What's the role all about? As a Supply Chain Data Analyst \u2026",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5854537338?utm_medium=api&utm_source=d5da9c84",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NDUzNzMzOCIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.1lbEYfpI8FYHa7oD6YgOgtwQTWOBaANj-mrYw-7YFME",
+      "location": {
+        "area": [
+          "UK",
+          "South East England",
+          "Hampshire",
+          "Fareham"
+        ],
+        "display_name": "Fareham, Hampshire",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "longitude": -0.139134,
+      "salary_min": 52152.68,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-24T21:10:47Z",
+      "description": "Robert Half Technology are assisting a specialist growth intelligence firm that sits at the intersection of data, pricing, product strategy, AI and B2B technology to recruit a Data Analyst. London based - Hybrid working Role The Data Analyst will build and deliver high-quality, client-specific analysis Own client data requests and identify ways to maximise value from incomplete or unstructured datasets Deliver ad-hoc analysis, data enhancements, enrichment, scraping, and advanced matching Contr\u2026",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "London, UK",
+        "area": [
+          "UK",
+          "London"
+        ]
+      },
+      "salary_is_predicted": "1",
+      "contract_time": "full_time",
+      "id": "5854573891",
+      "salary_max": 52152.68,
+      "latitude": 51.503378,
+      "company": {
+        "display_name": "Robert Half",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Analyst",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5854573891?utm_medium=api&utm_source=d5da9c84",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODU0NTczODkxIn0.n7lVwVVLHW9V3mbDWTIE7TptC7oqIZNGVFUeYd0QgYs",
+      "contract_type": "contract"
+    },
+    {
+      "title": "Data Analysts",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "BDO Recruitment"
+      },
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5871261504?utm_medium=api&utm_source=d5da9c84",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODcxMjYxNTA0In0.OJm4_EAOdXEEdPXOHu5O4b3TC78Sy6RVsE_Uzbf8FiU",
+      "contract_type": "contract",
+      "id": "5871261504",
+      "salary_max": 49846.42,
+      "latitude": 51.503378,
+      "description": "Data Analysts \u2013 London \u2013 Hybrid Job description We are recruiting for a Data Analysts to join our client, a regulated firm. This is a contract opportunity, offering an excellent day rate, employed via an Umbrella company. About the role: A specialist data analytics team to deliver data analysis, dashboard development, supervisory intelligence, risk analytics, reporting and stakeholder engagement in support of a pilot funds data programme, with the objective of improving regulatory supervision t\u2026",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "London, UK",
+        "area": [
+          "UK",
+          "London"
+        ]
+      },
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "salary_is_predicted": "1",
+      "contract_time": "full_time",
+      "longitude": -0.139134,
+      "salary_min": 49846.42,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-09-05T02:32:05Z"
+    },
+    {
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5838674911?utm_medium=api&utm_source=d5da9c84",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODM4Njc0OTExIn0.Y9r3O96pGWYxqklVxGQ4UXobqgskLmCnp5uXgoqpMnk",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "location": {
+        "area": [
+          "UK",
+          "South East England",
+          "Hampshire",
+          "Fareham",
+          "Whiteley"
+        ],
+        "display_name": "Whiteley, Fareham",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "title": "Data Analyst",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Kingdom Security"
+      },
+      "description": "SUPPLY CHAIN DATA CONTROLLER / ANALYST Turn Data Into Business Decisions We're looking for a talented Supply Chain Data Controller / Analyst to transform complex data into meaningful insights that drive operational excellence. What You'll Be Doing \u2022 Developing Power BI dashboards and automated reporting \u2022 Analysing supply chain, inventory and supplier performance data \u2022 Creating KPI frameworks and performance reports \u2022 Identifying trends, risks and improvement opportunities \u2022 Supporting data-le\u2026",
+      "latitude": 50.872576,
+      "created": "2026-08-12T19:37:45Z",
+      "salary_max": 44000,
+      "salary_min": 43000,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": -1.250126,
+      "id": "5838674911"
+    },
+    {
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5857234851?utm_medium=api&utm_source=d5da9c84",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODU3MjM0ODUxIn0.HW568cXyoZLBxpkILcKC-Kr-VIwx5mKSApjTZsq1lNM",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "East Midlands",
+          "Nottinghamshire",
+          "Nottingham"
+        ],
+        "display_name": "Nottingham, Nottinghamshire"
+      },
+      "salary_is_predicted": "1",
+      "company": {
+        "display_name": "Experian",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Analyst",
+      "description": "Job Description We are looking for a Data Analyst reporting into the Head of Data in our Nottingham office. You will manage the delivery of high-quality data solutions that support client, operational, and business objectives. Working within the Data Delivery team, you will combine technical capability with stakeholder engagement to ensure data products are delivered accurately, efficiently. You can analyse, transform, and validate complex datasets using SQL or SAS, while identifying opportunit\u2026",
+      "salary_min": 46572.79,
+      "salary_max": 46572.79,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "latitude": 52.955101,
+      "created": "2026-08-26T21:10:50Z",
+      "longitude": -1.14917,
+      "id": "5857234851"
+    },
+    {
+      "description": "Job title: Data Analyst Start Date: ASAP Contract: six months (possibility of extension) Location: Paddington (Hybrid) Sector: Retail Summary Producing an analysis is only part of the job; understanding whether it can be trusted, explained and used to support a decision is just as important. Our Advanced Analytics team helps make better decisions by combining commercial insight, decision science and analytical engineering. We work across product squads and the wider business on trusted, high-im\u2026",
+      "location": {
+        "area": [
+          "UK",
+          "London"
+        ],
+        "display_name": "London, UK",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "label": "Consultancy Jobs",
+        "tag": "consultancy-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "1",
+      "contract_time": "full_time",
+      "longitude": -0.139134,
+      "salary_min": 44228.03,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-13T20:57:17Z",
+      "title": "Data Analyst",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Experis UK"
+      },
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5840648792?utm_medium=api&utm_source=d5da9c84",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MDY0ODc5MiIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.EJcGSsgV-zLTm5KfTTy4eEPuhLKVV52VfRFr2JgUPz0",
+      "id": "5840648792",
+      "salary_max": 44228.03,
+      "latitude": 51.503378
+    },
+    {
+      "company": {
+        "display_name": "Sportradar",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Analyst",
+      "description": "Job Description Are you passionate about Data Visualization and Data Analysis? Sportradar is seeking a motivated Data Analyst (Business Intelligence Analyst) to join the fast paced and dynamic Data & Insights team. You will be responsible for the design, creation, and implementation of the reporting layer. You will implement creative approaches to solving complex problems. In addition to building new features, you will constantly be improving and expanding existing reporting interfaces. The rol\u2026",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5841480237?utm_medium=api&utm_source=d5da9c84",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODQxNDgwMjM3In0.RKCCBjGCdTb6V-I9gOFy6zrz7zUGbRwgyIjmJBW0Bl8",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "London, UK",
+        "area": [
+          "UK",
+          "London"
+        ]
+      },
+      "salary_is_predicted": "1",
+      "longitude": -0.139134,
+      "id": "5841480237",
+      "salary_max": 53957.82,
+      "salary_min": 53957.82,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-14T08:57:49Z",
+      "latitude": 51.503378
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 40000,
+      "created": "2026-05-22T11:06:12Z",
+      "longitude": -0.139134,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "London"
+        ],
+        "display_name": "London, UK"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "contract_time": "full_time",
+      "salary_is_predicted": "0",
+      "description": "About Us: Solirius Reply , part of the Reply Group , is a technology consultancy and digital transformation partner that helps organisations solve complex challenges through strategy, design, engineering, and delivery. We work closely with our clients to deliver secure, accessible, user-focused services that evolve with their needs. By combining deep technical expertise with people-centred design, we create solutions that deliver meaningful, lasting impact. Our consultants partner directly with\u2026",
+      "salary_max": 85000,
+      "latitude": 51.503378,
+      "id": "5737508609",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1NzM3NTA4NjA5In0.VlVLH4_Wkubqd6pITSLLEGoXjla_YQlEZmTa8Bl6j7c",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5737508609?utm_medium=api&utm_source=d5da9c84",
+      "company": {
+        "display_name": "Solirius Reply",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Analyst"
+    },
+    {
+      "id": "5845316773",
+      "latitude": 51.503378,
+      "salary_max": 50452.18,
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Hulcan"
+      },
+      "title": "Data Analyst",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5845316773?utm_medium=api&utm_source=d5da9c84",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0NTMxNjc3MyIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.ZXFV_lXbpGPD8omlgiOcE60QCSLqz-0_xOHD_8Tajhw",
+      "longitude": -0.139134,
+      "created": "2026-08-17T16:58:53Z",
+      "salary_min": 50452.18,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "This is a newly created role sitting at the intersection of Commercial Finance, Growth and Technology. The successful candidate will become the go-to person for turning raw data into reporting and trend analysis that drives commercial and growth decision-making across the business, spanning customer, membership, trade, and operational performance. This role is being created at a pivotal moment. We are in a high growth stage, mid-migration to a new data warehouse, consolidating reporting across \u2026",
+      "salary_is_predicted": "1",
+      "contract_time": "full_time",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "display_name": "London, UK",
+        "area": [
+          "UK",
+          "London"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "title": "Data Analyst",
+      "company": {
+        "display_name": "Avara Foods",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4Njc1MjQzOCIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.eWbxNVINwjqexSLNrtTvwtNUuQ0oXa8l2oMEzogIv2w",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5786752438?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=C3BEB49FF7D2E232E93C5A1D568371D8550ADBAD",
+      "id": "5786752438",
+      "latitude": 52.026185,
+      "salary_max": 35000,
+      "description": "Who are we, and what do we do? You may not have heard of us, but there\u2019s a good chance you\u2019ve enjoyed our products. Avara Foods is one of the UK\u2019s leading food businesses, supplying chicken and turkey to the country\u2019s major supermarkets and well-known restaurants. We own and manage our entire supply chain, from farms to factory and all the way to the customer door \u2013 meaning we have careers that cover a whole range of functions. We have major processing sites across England and an agricultural n\u2026",
+      "contract_time": "full_time",
+      "salary_is_predicted": "0",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "East Midlands",
+          "Northamptonshire",
+          "Brackley",
+          "Turweston"
+        ],
+        "display_name": "Turweston, Brackley"
+      },
+      "longitude": -1.138237,
+      "created": "2026-07-03T12:12:16Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 35000
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "MWH Treatment"
+      },
+      "title": "Data Analyst",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc4MDM1MDUyMyIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.x9afcuF7DTJFH8L8J9Z9uJ4Eb-p4L0NXD-CiJH_iOm0",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5780350523?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=6A23DE6B7BB92F746B2C2364BA5C6F4DEC97AC98",
+      "id": "5780350523",
+      "latitude": 53.443525,
+      "salary_max": 50579.12,
+      "description": "We are looking to strengthen our Data Management team with an Data Analyst based at the Hattersley office with hybrid working available. You will report directly to the Head of Strategy and PMO, and the role purpose is to develop, implement, manage, continually review and refine ESD\u2019s information governance of, and to promote good practice in, the management of all data pertaining to the measured performance of ESD's prescribed activities. Prepare and present reliable data for monthly Operation\u2026",
+      "contract_time": "full_time",
+      "salary_is_predicted": "1",
+      "location": {
+        "area": [
+          "UK",
+          "North West England",
+          "Greater Manchester",
+          "Hyde",
+          "Broadbottom"
+        ],
+        "display_name": "Broadbottom, Hyde",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "longitude": -2.031758,
+      "created": "2026-06-28T16:43:51Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 50579.12
+    },
+    {
+      "latitude": 55.893844,
+      "salary_max": 48532.52,
+      "id": "5738736752",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1NzM4NzM2NzUyIn0.kHsY3x56vekHmzKHV7wlQPNR0YrJnw15GSBJIIYbFsA",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5738736752?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=034E4334AFE619E8E568C70F8F3AD91DC0A12305",
+      "title": "Data Analyst",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "MWH Treatment"
+      },
+      "created": "2026-05-23T13:10:53Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 48532.52,
+      "longitude": -4.129929,
+      "contract_time": "full_time",
+      "salary_is_predicted": "1",
+      "location": {
+        "area": [
+          "UK",
+          "Scotland",
+          "North Lanarkshire",
+          "Stepps"
+        ],
+        "display_name": "Stepps, North Lanarkshire",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "description": "We are looking to strengthen our Data Management team with an Data Analyst based at the Stepps office with hybrid working available. You will report directly to the Head of Strategy and PMO, and the role purpose is to develop, implement, manage, continually review and refine ESD\u2019s information governance of, and to promote good practice in, the management of all data pertaining to the measured performance of ESD's prescribed activities. Prepare and present reliable data for monthly Operational, \u2026"
+    },
+    {
+      "longitude": -3.53362,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 32721.21,
+      "created": "2026-09-03T00:31:42Z",
+      "description": "Data Analyst Exeter, Devon (with hybrid working) About Us At FDB (First Databank), we're part of the Hearst Health network, and we create and deliver the world's most trusted drug knowledge, enabling healthcare professionals to make critical decisions that improve patient safety, efficiency, and outcomes. Our solutions are embedded across hospitals, GP practices, pharmacies, and wider healthcare systems, supporting millions of patients every day. Our values guide everything we do: Better Togeth\u2026",
+      "location": {
+        "area": [
+          "UK",
+          "South West England",
+          "Devon",
+          "Exeter"
+        ],
+        "display_name": "Exeter, Devon",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "contract_time": "part_time",
+      "salary_is_predicted": "1",
+      "id": "5867756760",
+      "salary_max": 32721.21,
+      "latitude": 50.721802,
+      "company": {
+        "display_name": "First Databank",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Analyst",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2Nzc1Njc2MCIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.LuVrFjkrJZM2ZUchpMz9UuwQRIJA6QKUCQZ5mFAoPO8",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5867756760?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=5EB61E52975219A222ECD5986EC8A91A8202F375",
+      "contract_type": "contract"
+    },
+    {
+      "salary_is_predicted": "1",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODU1MzU4NzY5In0.YsNqLwG9WEKedPimTWeicEN1VSR4AzsHdvvlqpYDCkg",
+      "location": {
+        "area": [
+          "UK",
+          "London"
+        ],
+        "display_name": "London, UK",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5855358769?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=F04666E0DB40B5A4935400B7C249AF01A5C17D7A",
+      "description": "Data Analyst London (Hybrid, 3 days in office) | \u00a370,000 - \u00a375,000 No sponsorship offered Must come from Financial services or consulting Looking for a role that combines data analytics, commercial insight, and strategic decision-making? This is an opportunity to join a high-performing finance and business performance function where you'll play a key role in transforming complex operational and financial data into actionable business insight. Working closely with senior stakeholders, you'll hel\u2026",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Harnham - Data & Analytics Recruitment"
+      },
+      "title": "Data Analyst",
+      "created": "2026-08-25T13:38:22Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_max": 59280.52,
+      "salary_min": 59280.52,
+      "id": "5855358769"
+    },
+    {
+      "id": "5874418862",
+      "salary_min": 54090.18,
+      "salary_max": 54090.18,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-09-07T20:33:55Z",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Harnham - Data & Analytics Recruitment"
+      },
+      "title": "Data Analyst",
+      "description": "DATA ANALYST REMOTE (ONE DAY A MONTH IN LEEDS OFFICE) UP TO \u00a346,000 This is an opportunity to join a highly respected organisation at the intersection of workforce strategy, analytics, and policy. As a Data Analyst, you will play a key role in shaping evidence-based decisions that influence workforce planning, pay frameworks, and long-term organisational strategy. You'll work on complex analytical challenges whilst engaging with a broad range of senior stakeholders. ROLES AND RESPONSIBILITIES: \u2026",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5874418862?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=BCB22C1D9F35E6244F236A072C524A071FBC4773",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODc0NDE4ODYyIn0.crGYPayWOysg0uJ8-oyzB0tYRyX-WAxtQtzw-ojiqw4",
+      "location": {
+        "display_name": "London, UK",
+        "area": [
+          "UK",
+          "London"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "salary_is_predicted": "1"
+    },
+    {
+      "id": "5868913954",
+      "salary_max": 49693.11,
+      "latitude": 51.523772,
+      "title": "Data Analysts",
+      "company": {
+        "display_name": "BDO LLP",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5868913954?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=452C20273BDA4041BBF810AEC9FA203DC12A95B5",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2ODkxMzk1NCIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.QM4HFqFcSAPCtD0ONztAAvRV1T4Yp9MAwYOtZkdriDY",
+      "contract_type": "contract",
+      "longitude": -0.103815,
+      "salary_min": 49693.11,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-09-03T14:02:41Z",
+      "description": "Data Analysts \u2013 London \u2013 Hybrid Job description We are recruiting for a Data Analysts to join our client, a regulated firm. This is a contract opportunity, offering an excellent day rate, employed via an Umbrella company. About the role: A specialist data analytics team to deliver data analysis, dashboard development, supervisory intelligence, risk analytics, reporting and stakeholder engagement in support of a pilot funds data programme, with the objective of improving regulatory supervision t\u2026",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "London",
+          "Central London",
+          "Farringdon"
+        ],
+        "display_name": "Farringdon, Central London"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "salary_is_predicted": "1"
+    },
+    {
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5840635609?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=2E89B07FE0543BE066C4D10CDD50CEC9C48FB353",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MDYzNTYwOSIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.4w58O_N-Nsn-YSpNj_ErXjhRVtk1sMNx4e5NslZ74o8",
+      "contract_type": "contract",
+      "title": "Data Analyst",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Rise Technical Recruitment"
+      },
+      "salary_max": 36000,
+      "latitude": 50.470617,
+      "id": "5840635609",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "area": [
+          "UK",
+          "South West England",
+          "Cornwall",
+          "Saltash",
+          "Pillaton"
+        ],
+        "display_name": "Pillaton, Saltash",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_is_predicted": "0",
+      "contract_time": "full_time",
+      "description": "Data Analyst Plymouth \u00a336,070  37 days holiday  Local Government Pension  breakfast and lunch  many more benefits. Are you an experienced Data Analyst with strong SQL and data visualisation skills? Do you want to join a growing team where you can use your analytical expertise to improve business performance, develop modern reporting systems and have a real impact on how data is used across an organisation? This forward-thinking education provider is investing heavily in its Data and MIS functio\u2026",
+      "salary_min": 36000,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-13T19:48:22Z",
+      "longitude": -4.301132
+    },
+    {
+      "longitude": -1.96654,
+      "id": "5855343476",
+      "created": "2026-08-25T13:35:17Z",
+      "latitude": 51.7141,
+      "salary_min": 33309.6,
+      "salary_max": 33309.6,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "title": "Data Analyst",
+      "company": {
+        "display_name": "Reed",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "description": "Entry Level Data Analyst Turn Data Into Opportunity Are you naturally curious? Love solving puzzles, working with data, and uncovering information others might miss? We're looking for a motivated and analytical Data Analyst to join our growing team. This is a fantastic opportunity to build a career within a specialist industry, combining data analysis, research, property, and finance. You don't need previous experience in business rates or commercial property. What matters most is your ability \u2026",
+      "salary_is_predicted": "1",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5855343476?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=E0DB5031D1807D63396316D5787B688AB2E04EC0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NTM0MzQ3NiIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.ugpUWy2ghFDLzyeiigcGKYjn5z9h2uQiJgkkZMNn4Uw",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "South West England",
+          "Gloucestershire",
+          "Cirencester"
+        ],
+        "display_name": "Cirencester, Gloucestershire"
+      }
+    },
+    {
+      "salary_is_predicted": "1",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5871029118?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=53C01804ED780B22188A56FEB5B5AB02B91E4B71",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODcxMDI5MTE4In0.5inckT9FPnFpN5gODJh7kvHM5XR5r_JkyJqSAmYTdsA",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "London"
+        ],
+        "display_name": "London, UK"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Harnham - Data & Analytics Recruitment"
+      },
+      "title": "Data Analyst",
+      "description": "Data Analyst - Up to 45k This is an opportunity to work with a genuinely unique behavioural dataset, combining digital activity, consumer journeys and emerging AI interactions. You will help answer complex commercial questions for leading brands while shaping how data is used to understand real-world behaviour. The Company They are a specialist data and analytics business focused on understanding how advertising and digital experiences influence consumer behaviour. Their work blends advanced an\u2026",
+      "created": "2026-09-04T22:18:20Z",
+      "salary_min": 50184.31,
+      "salary_max": 50184.31,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "id": "5871029118"
+    },
+    {
+      "company": {
+        "display_name": "V7 Recruitment",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Analyst",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1MTQwNDk3MiIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.oHX43jnRcrYHh_hqU1Tt5n3w20sRv5JAm83_4cXnjIM",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5851404972?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=87EF25468D534470639317AD2E83D8F0828AB1E1",
+      "id": "5851404972",
+      "salary_max": 30000,
+      "latitude": 53.35924,
+      "description": "Data Analyst - Perfect for graduate or with some analytical experience who wants long term career - \u00a330k & 9% bonus, 25 days holiday, lots of career opportunities - Stockport The Opportunity: Data \u2013 it\u2019s pretty important these days and is everywhere. But taking the raw data and making into something useful, that\u2019s important. It\u2019s how companies grow and we all know how we get better. That\u2019s where you come in\u2026 On that basis, we are looking for Data Analyst to come in to a hugely growing company i\u2026",
+      "location": {
+        "display_name": "Newtown, Disley",
+        "area": [
+          "UK",
+          "North West England",
+          "Greater Manchester",
+          "Stockport",
+          "Disley",
+          "Newtown"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "contract_time": "full_time",
+      "salary_is_predicted": "0",
+      "longitude": -2.053504,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 29000,
+      "created": "2026-08-21T18:58:05Z"
+    },
+    {
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "location": {
+        "area": [
+          "UK",
+          "South West England",
+          "Plymouth"
+        ],
+        "display_name": "Plymouth, South West England",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_is_predicted": "0",
+      "contract_time": "full_time",
+      "description": "Pertemps is recruiting on behalf of our client for a Data Analyst to join their Data Services team. Salary: \u00a336,070 per annum Contract: Permanent, Full-Time (37 hours per week) This is an exciting opportunity for an analytical and forward-thinking Data Analyst to play a key role in transforming the way data is used across the organisation. You'll be responsible for turning complex data into meaningful insights, developing interactive dashboards, and supporting strategic decision-making through \u2026",
+      "salary_min": 36070,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-13T17:56:50Z",
+      "longitude": -4.14265,
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5840524555?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=70BEC44CC1BB7A1534287D3BA4554E9576D2CBE0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MDUyNDU1NSIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.nNIsAIRKVhWiGLVFlmblIyPMkTcsjM7VH_dC2jATL8k",
+      "contract_type": "permanent",
+      "title": "Data Analyst",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Pertemps Plymouth"
+      },
+      "salary_max": 36070,
+      "latitude": 50.370399,
+      "id": "5840524555"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1Njg5MjY4NyIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.X2fjVuqVVN4cCHFbU3oxpzaz8iveg4I-keCnaSKHFJ4",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5856892687?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=92C319EAA016528889ABAD3D5B270FF22DF0E3EB",
+      "contract_type": "contract",
+      "company": {
+        "display_name": "Reed Technology",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Analyst",
+      "salary_max": 45000,
+      "latitude": 52.460083,
+      "id": "5856892687",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "display_name": "Balsall Heath, Birmingham",
+        "area": [
+          "UK",
+          "West Midlands",
+          "Birmingham",
+          "Balsall Heath"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "contract_time": "full_time",
+      "salary_is_predicted": "0",
+      "description": "Data & Reporting Analyst 12-Month Fixed-Term Contract l Up to \u00a345,000 based on experience Are you passionate about transforming data into meaningful business insight? Do you enjoy digging beneath the surface, identifying trends, challenging assumptions, and helping organisations make smarter decisions? I'm partnering with a highly respected organisation that is committed to delivering exceptional services and driving continuous improvement through data-driven decision making. As part of an ambi\u2026",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 35000,
+      "created": "2026-08-26T15:24:05Z",
+      "longitude": -1.902086
+    },
+    {
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Devon, South West England",
+        "area": [
+          "UK",
+          "South West England",
+          "Devon"
+        ]
+      },
+      "contract_time": "part_time",
+      "salary_is_predicted": "1",
+      "description": "Data Analyst Exeter, Devon (with hybrid working) About Us At FDB (First Databank), we're part of the Hearst Health network, and we create and deliver the world's most trusted drug knowledge, enabling healthcare professionals to make critical decisions that improve patient safety, efficiency, and outcomes. Our solutions are embedded across hospitals, GP practices, pharmacies, and wider healthcare systems, supporting millions of patients every day. Our values guide everything we do: Better Togeth\u2026",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 33159.05,
+      "created": "2026-09-02T17:30:11Z",
+      "longitude": -3.736703,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODY3MzE2ODQ5In0.FyVs5-rEeNcw2CpppLJvCSTIMqY6CEWVBmPy76yI3oM",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5867316849?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=FF81485BD28C9EC34FDD101ADC67F040926BC220",
+      "contract_type": "contract",
+      "title": "Data Analyst",
+      "company": {
+        "display_name": "First Databank",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_max": 33159.05,
+      "latitude": 50.712485,
+      "id": "5867316849"
+    },
+    {
+      "description": "Data Analyst Exeter, Devon (with hybrid working) About Us At FDB (First Databank), we're part of the Hearst Health network, and we create and deliver the world's most trusted drug knowledge, enabling healthcare professionals to make critical decisions that improve patient safety, efficiency, and outcomes. Our solutions are embedded across hospitals, GP practices, pharmacies, and wider healthcare systems, supporting millions of patients every day. Our values guide everything we do: Better Togeth\u2026",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "South West England",
+          "Devon",
+          "Exeter"
+        ],
+        "display_name": "Exeter, Devon"
+      },
+      "contract_time": "part_time",
+      "salary_is_predicted": "0",
+      "longitude": -3.53362,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 20000,
+      "created": "2026-09-02T23:10:18Z",
+      "title": "Data Analyst",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "First Databank"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2NzY0MzAxOSIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.KoVDgtPVT1YRglyyocVkjsp9hJY93Z0EGd-gYyHyA-I",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5867643019?utm_medium=api&utm_source=d5da9c84",
+      "contract_type": "contract",
+      "id": "5867643019",
+      "salary_max": 20000,
+      "latitude": 50.721802
+    },
+    {
+      "latitude": 51.882057,
+      "salary_max": 47840,
+      "id": "5840374941",
+      "contract_type": "contract",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODQwMzc0OTQxIn0.Bz8YL4MbKzdE_yPUlhFD3FYRw2xalHJMeuVSO4sDlAE",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5840374941?utm_medium=api&utm_source=d5da9c84",
+      "title": "Data Analyst",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Mars Recruitment"
+      },
+      "created": "2026-08-13T16:14:05Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 47840,
+      "longitude": -0.793508,
+      "contract_time": "full_time",
+      "salary_is_predicted": "0",
+      "category": {
+        "label": "Accounting & Finance Jobs",
+        "tag": "accounting-finance-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "area": [
+          "UK",
+          "South East England",
+          "Buckinghamshire"
+        ],
+        "display_name": "Buckinghamshire, South East England",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "description": "12th August, 2026 Data Analyst - Finance | 8-month contract | \u00a323 PAYE or \u00a331 Umbrella p/h | High Wycombe - 3 days onsite & 2 days remote: A great opportunity has arisen for a mid-level Data Analyst to join a world-renowned specialist manufacturer on an 8-month inside of IR35 temporary contract. Due to a sustained period of growth, my client needs immediate support with data collection, analysis, reporting, and revenue-generation activities. The successful Data Analyst will be comfortable worki\u2026"
+    },
+    {
+      "description": "Data Analyst Solihull (5 days per week) \u00a335,000 per annum VIQU has partnered with a global organisation looking to expand their dat capabilities. This role will be the sole Data Analyst position in the UK, working closely with the head of Technology, and the wider data team to transform business data into insights. You'll be responsible for analysing and manipulating large datasets, identifying trends and potential issues before they impact the business, and presenting clear recommendations to \u2026",
+      "location": {
+        "area": [
+          "UK",
+          "West Midlands",
+          "Solihull"
+        ],
+        "display_name": "Solihull, West Midlands",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "contract_time": "full_time",
+      "salary_is_predicted": "0",
+      "longitude": -1.7743,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 30000,
+      "created": "2026-08-31T20:07:39Z",
+      "company": {
+        "display_name": "VIQU IT Recruitment",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Analyst",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg2MzEwOTk5MyIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.oqSSJLl0ZwzomBlFIlbV0xst4JOf7EgSwDqxfLAtfkU",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5863109993?utm_medium=api&utm_source=d5da9c84",
+      "id": "5863109993",
+      "salary_max": 35000,
+      "latitude": 52.4147
+    },
+    {
+      "created": "2026-09-03T18:00:15Z",
+      "salary_min": 78000,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": -0.831728,
+      "salary_is_predicted": "0",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Holcot, Northampton",
+        "area": [
+          "UK",
+          "East Midlands",
+          "Northamptonshire",
+          "Northampton",
+          "Holcot"
+        ]
+      },
+      "description": "Data Analyst 6 months Contract (Extendable) Northampton - Hybrid (3 Days onsite) \u00a3350pd Inside IR35 Key Requirements: * Strong experience as a Data Analyst * Experience working in Risk domain/projects * Strong SQL and data analysis skills * Experience with data reporting and stakeholder management * Ability to analyse, validate, and interpret complex datasets * Banking/Financial Services experience preferred * Strong communication and analytical skills",
+      "latitude": 52.319636,
+      "salary_max": 91000,
+      "id": "5869444098",
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5869444098?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=DF03609B8CBE4C3CEE8D6F5873F56087C3F9DA4B",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODY5NDQ0MDk4In0.iKk-s0ROWxX1q9_f2QcfzIhO8AHNuT0c_NrHn3dA-_Q",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Third Nexus Group Limited"
+      },
+      "title": "Data Analyst"
+    },
+    {
+      "contract_type": "contract",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODU0MzY2MjA5In0.aQrExFXmxryoR3j0vSHua74yQvANGjdAhYQshoIWXwQ",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5854366209?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=6D49961373973C30C1328DF69F69E0676159BF61",
+      "title": "Data Analyst",
+      "company": {
+        "display_name": "Reed Technology",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "latitude": 52.4006,
+      "salary_max": 47840,
+      "id": "5854366209",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "UK",
+          "West Midlands",
+          "Solihull",
+          "Shirley",
+          "Dickens Heath"
+        ],
+        "display_name": "Dickens Heath, Shirley",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "Data Analyst 10-Month Contract Solihull | Hybrid Working \u00a318/hour PAYE // \u00a323/hour Umbrella REED Technology are recruiting for an experienced Data Analyst to join a well-established organisation on a 10-month contract basis. This role offers the opportunity to work within a business intelligence and reporting function, supporting stakeholders across the organisation through the delivery of high-quality data analysis, management information, and performance reporting. As a Data Analyst, you will\u2026",
+      "created": "2026-08-24T13:12:54Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 37440,
+      "longitude": -1.825874
+    },
+    {
+      "longitude": -1.89359,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 37440,
+      "created": "2026-08-25T13:45:27Z",
+      "description": "Data Analyst 10-Month Contract Solihull | Hybrid Working \u00a318/hour PAYE // \u00a323/hour Umbrella REED Technology are recruiting for an experienced Data Analyst to join a well-established organisation on a 10-month contract basis. This role offers the opportunity to work within a business intelligence and reporting function, supporting stakeholders across the organisation through the delivery of high-quality data analysis, management information, and performance reporting. As a Data Analyst, you will\u2026",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "West Midlands",
+          "Birmingham"
+        ],
+        "display_name": "Birmingham, West Midlands"
+      },
+      "contract_time": "full_time",
+      "salary_is_predicted": "0",
+      "id": "5855381335",
+      "salary_max": 47840,
+      "latitude": 52.483002,
+      "title": "Data Analyst",
+      "company": {
+        "display_name": "Reed",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODU1MzgxMzM1In0.mfvSSU5OtKF3wn3srkjzuC2CILgIoiSnlCWrveUwIGA",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5855381335?utm_medium=api&utm_source=d5da9c84",
+      "contract_type": "contract"
+    },
+    {
+      "id": "5849817799",
+      "latitude": 51.117643,
+      "salary_max": 35000,
+      "title": "Data Analyst",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Experis"
+      },
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5849817799?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=264612FF3E954F49EE9202CDA6F901E066CF2478",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODQ5ODE3Nzk5In0.6Rl9F-JYcrxgeLmqHrdRsMf19VSor6TvZtRzrQDz_vE",
+      "longitude": -0.157764,
+      "created": "2026-08-20T17:02:28Z",
+      "salary_min": 30000,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "description": "Data Analyst An established home healthcare provider, working in close partnership with the NHS, is looking to hire a Reporting Data Analyst to join their growing Business Intelligence team. As part of a leading European home care group, this is a truly patient-focused organisation where improving lives sits at the heart of everything they do! If you enjoy building high-quality Power BI dashboards and turning business challenges into reliable data solutions, this is a great opportunity with a r\u2026",
+      "salary_is_predicted": "0",
+      "contract_time": "full_time",
+      "location": {
+        "area": [
+          "UK",
+          "South East England",
+          "West Sussex",
+          "Crawley",
+          "Pound Hill"
+        ],
+        "display_name": "Pound Hill, Crawley",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      }
+    },
+    {
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5849817958?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=00DAC1E3E59D3111A71D771CBFB0831F672D05DD",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODQ5ODE3OTU4In0.pW-jSl6Sf51O0uDpltYI9TNJh8b6-GGtXak0esv0jf8",
+      "title": "Data Analyst",
+      "company": {
+        "display_name": "Experis",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "salary_max": 35000,
+      "latitude": 56.1194,
+      "id": "5849817958",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "location": {
+        "area": [
+          "UK",
+          "Scotland",
+          "County Stirling",
+          "Stirling"
+        ],
+        "display_name": "Stirling, County Stirling",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_is_predicted": "0",
+      "contract_time": "full_time",
+      "description": "Data Analyst An established home healthcare provider, working in close partnership with the NHS, is looking to hire a Reporting Data Analyst to join their growing Business Intelligence team. As part of a leading European home care group, this is a truly patient-focused organisation where improving lives sits at the heart of everything they do! If you enjoy building high-quality Power BI dashboards and turning business challenges into reliable data solutions, this is a great opportunity with a r\u2026",
+      "salary_min": 30000,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-08-20T17:02:36Z",
+      "longitude": -3.93588
+    },
+    {
+      "longitude": -0.182914,
+      "id": "5849943245",
+      "created": "2026-08-20T21:28:56Z",
+      "latitude": 51.1133,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 35000,
+      "salary_max": 35000,
+      "description": "Data Analyst An established home healthcare provider, working in close partnership with the NHS, is looking to hire a Reporting Data Analyst to join their growing Business Intelligence team. As part of a leading European home care group, this is a truly patient-focused organisation where improving lives sits at the heart of everything they do! If you enjoy building high-quality Power BI dashboards and turning business challenges into reliable data solutions, this is a great opportunity with a r\u2026",
+      "title": "Data Analyst",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Experis"
+      },
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "South East England",
+          "West Sussex",
+          "Crawley"
+        ],
+        "display_name": "Crawley, West Sussex"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODQ5OTQzMjQ1In0.s3VPS_WJOXLKnnoyaFTnGM-RQIEslStTQelcOBvLh_I",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5849943245?utm_medium=api&utm_source=d5da9c84"
+    },
+    {
+      "latitude": 54.936904,
+      "salary_max": 80000,
+      "id": "5820418826",
+      "contract_type": "permanent",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5820418826?utm_medium=api&utm_source=d5da9c84",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODIwNDE4ODI2In0.EkSGfyPODaCXtvHBhaxzVOo7qHDwTu_90zQg2tM81pA",
+      "title": "Data Analyst",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Catalyst"
+      },
+      "created": "2026-07-30T00:47:39Z",
+      "salary_min": 80000,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": -1.587407,
+      "salary_is_predicted": "0",
+      "contract_time": "full_time",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "location": {
+        "area": [
+          "UK",
+          "North East England",
+          "Tyne & Wear",
+          "Gateshead"
+        ],
+        "display_name": "Gateshead, Tyne & Wear",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "description": "Our client is a successful tech scale-up, a cash-generative SME currently at c.\u00a312m turnover and c.80 staff, looking to double in size in the next five years under the guidance of its experienced, highly charismatic and driven owner, supported by a first-class senior leadership team including new CEO. We are looking to strengthen the companys Data & Insight capability, working closely with the organisations Operations Director who leads high-performing Customer Service, Project Delivery, IT and\u2026"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Anson Mccade"
+      },
+      "title": "Data Analyst",
+      "description": "Data Analyst Data Standardisation Competitive Day Rate | Outside IR35 | Contract We are currently supporting a leading digital transformation consultancy on a Data Standardisation Discovery programme within the UK public sector . We are looking for an experienced Data Analyst to play a key role in understanding the current data landscape, identifying inconsistencies and data quality issues across multiple sources, and helping shape recommendations for future data standards and delivery. The Rol\u2026",
+      "salary_is_predicted": "1",
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5837138213?utm_medium=api&utm_source=d5da9c84",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzNzEzODIxMyIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.KiyOplzpvW7Zdq55-lBwrSd9TJjcZKATlia_3gDsR1U",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "UK",
+        "area": [
+          "UK"
+        ]
+      },
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "id": "5837138213",
+      "created": "2026-08-11T21:21:32Z",
+      "salary_max": 60140.02,
+      "salary_min": 60140.02,
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Trace"
+      },
+      "title": "Data Analyst",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5858364990?utm_medium=api&utm_source=d5da9c84",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODU4MzY0OTkwIn0.zKPm5SyT-H1oQfQiQ1-MvYyPArxjAgyqieow7lijSMc",
+      "id": "5858364990",
+      "latitude": 51.503378,
+      "salary_max": 45000,
+      "description": "25th August, 2026 Data Analyst, Investment Management Firm, London, up to \u00a345k, Hybrid A growing FTSE-listed investment management firm are looking for a motivated Data Analyst to join their team and play a key role in supporting business-critical systems, reporting, and automation initiatives. This is an excellent opportunity for a data-driven professional who enjoys solving complex problems and improving processes through technology. Working closely with Finance, Operations, and Technology te\u2026",
+      "salary_is_predicted": "0",
+      "contract_time": "full_time",
+      "location": {
+        "display_name": "London, UK",
+        "area": [
+          "UK",
+          "London"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs",
+        "label": "IT Jobs"
+      },
+      "longitude": -0.139134,
+      "created": "2026-08-27T16:20:13Z",
+      "salary_min": 45000,
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "id": "5874392633",
+      "salary_max": 40000,
+      "latitude": 54.936904,
+      "title": "Data Analyst",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Jackson Hogg Ltd"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODc0MzkyNjMzIn0.tTf9WXPjpTLYfbNIZ8SenXYK6lTeOohfyV_y0Bp0xJA",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5874392633?se=PqM6Gmus8RGQ3JC388v-dg&utm_medium=api&utm_source=d5da9c84&v=FE36FCC8126EDD8B396A998222E1494F85D0393C",
+      "longitude": -1.587407,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 35000,
+      "created": "2026-09-07T20:26:15Z",
+      "description": "Data Analyst Shape the future of data in a business undergoing major cloud transformation Are you a data professional who loves turning complex data into powerful business insights? Do you want to be part of a large-scale cloud transformation programme where your work will directly influence business decisions and customer experiences? We're looking for a talented Data Analyst to join a high-performing team during an exciting period of digital evolution. This is a rare opportunity to play a key\u2026",
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Gateshead, Tyne & Wear",
+        "area": [
+          "UK",
+          "North East England",
+          "Tyne & Wear",
+          "Gateshead"
+        ]
+      },
+      "contract_time": "full_time",
+      "salary_is_predicted": "0"
+    },
+    {
+      "longitude": 0.360188,
+      "salary_min": 37901.23,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "created": "2026-09-04T14:10:27Z",
+      "description": "Company Description MSX has been a trusted partner to leading vehicle manufacturers, their retailers, and mobility organizations globally for more than 30 years. Our unwavering commitment is to help our clients transform their businesses and effectively manage operations in the areas of: * Sales Performance * Repair Optimization and Compliance * Parts and Accessories Sales Performance * Consumer Engagement With our global teams, industry expertise, and the power of technology, we design and del\u2026",
+      "location": {
+        "area": [
+          "UK",
+          "Eastern England",
+          "Essex",
+          "Brentwood",
+          "Mountnessing"
+        ],
+        "display_name": "Mountnessing, Brentwood",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "IT Jobs"
+      },
+      "salary_is_predicted": "1",
+      "contract_time": "full_time",
+      "id": "5870628588",
+      "salary_max": 37901.23,
+      "latitude": 51.644235,
+      "company": {
+        "display_name": "MSX International Limited",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Data Analyst",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5870628588?utm_medium=api&utm_source=d5da9c84",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODcwNjI4NTg4In0.sPS7lr8snJWdiswg74AaxsE444OkdXS7vgKK7Js8Olg"
+    },
+    {
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Euro Car Parks"
+      },
+      "title": "Data Analyst",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgyMDQyMjk1MiIsInMiOiJQcU02R211czhSR1EzSkMzODh2LWRnIn0.j3SYpHBdRyf6v5ztOUJrgyTSnZ63AvFoDsqkzEqDNV4",
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5820422952?utm_medium=api&utm_source=d5da9c84",
+      "contract_type": "permanent",
+      "id": "5820422952",
+      "salary_max": 100000,
+      "latitude": 51.51985,
+      "description": "Data Analyst, Central London An exciting Data Analyst role with a salary of \u00a3100,000 plus bonus and career progression opportunities for a permanent full-time role based in our Marylebone, London office. We are offering a fantastic opportunity for an experienced Data Analyst with an immediate start at a market leading, dynamic and renowned property, technology and innovative, technology-based car parking company. Euro Car Parks is a market leading, renowned UK business, established over 50 year\u2026",
+      "category": {
+        "label": "IT Jobs",
+        "tag": "it-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Central London, London",
+        "area": [
+          "UK",
+          "London",
+          "Central London"
+        ]
+      },
+      "contract_time": "full_time",
+      "salary_is_predicted": "0",
+      "longitude": -0.11126,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 100000,
+      "created": "2026-07-30T00:51:19Z"
+    },
+    {
+      "latitude": 55.86026,
+      "created": "2026-08-25T21:37:10Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_min": 45000,
+      "salary_max": 45000,
+      "longitude": -4.25596,
+      "id": "5855716321",
+      "salary_is_predicted": "0",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUHFNNkdtdXM4UkdRM0pDMzg4di1kZyIsImkiOiI1ODU1NzE2MzIxIn0.al7PxW89js9URoCNrXzDN5_mjVL62J6j73KNSjyZ-28",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "UK",
+          "Scotland",
+          "Glasgow"
+        ],
+        "display_name": "Glasgow, Scotland"
+      },
+      "redirect_url": "https://www.adzuna.co.uk/jobs/details/5855716321?utm_medium=api&utm_source=d5da9c84",
+      "description": "Data Analyst - Glasgow, Hybrid Bright Purple are working with a well-established, growing organisation based in Glasgow who are looking for a commercially minded Data Analyst to join their team. This is a great opportunity for someone who enjoys turning numbers into decisions, rather than just building dashboards for the sake of it. Working with Power BI and Microsoft Fabric, you'll be at the heart of how the business understands its own performance. What is in it for you: Salary up to \u00a345,000 \u2026",
+      "title": "Data Analyst",
+      "company": {
+        "display_name": "Bright Purple Resourcing",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      }
+    }
+  ]
+}

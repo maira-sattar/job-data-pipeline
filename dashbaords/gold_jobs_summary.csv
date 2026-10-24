@@ -1,0 +1,30 @@
+location,category,job_count,avg_salary_min,avg_salary_max
+"London, UK",IT Jobs,13,54798.0,59721.0
+"Manchester, Greater Manchester",IT Jobs,4,54357.0,65607.0
+"Newcastle Upon Tyne, Tyne & Wear",IT Jobs,2,48242.0,48242.0
+"Bristol, South West England",IT Jobs,2,48100.0,48100.0
+"Banbridge, County Down",IT Jobs,2,30000.0,30000.0
+"Harlow, Essex",IT Jobs,2,104000.0,104000.0
+"Belfast, Northern Ireland",Accounting & Finance Jobs,2,38530.0,38530.0
+"Glasgow, Scotland",IT Jobs,2,57044.0,57044.0
+"Antrim, County Antrim",IT Jobs,1,40000.0,40000.0
+"London, UK",Accounting & Finance Jobs,1,45884.0,45884.0
+"Lincoln, Lincolnshire",Admin Jobs,1,40000.0,40000.0
+"Wolverhampton, West Midlands",IT Jobs,1,30000.0,50000.0
+"Luton, Bedfordshire",IT Jobs,1,30000.0,50000.0
+"Plymouth, South West England",IT Jobs,1,30000.0,50000.0
+"Cardiff County, Wales",IT Jobs,1,30000.0,50000.0
+UK,IT Jobs,1,30000.0,50000.0
+"Northampton, Northamptonshire",IT Jobs,1,30000.0,50000.0
+"Belfast, Northern Ireland",IT Jobs,1,26645.0,26645.0
+"Bradford, West Yorkshire",IT Jobs,1,43268.0,43268.0
+"Oxfordshire, South East England",IT Jobs,1,50000.0,55000.0
+"Leeds, West Yorkshire",IT Jobs,1,65000.0,65000.0
+"Liverpool, Merseyside",IT Jobs,1,65000.0,65000.0
+"Birmingham, West Midlands",IT Jobs,1,65000.0,65000.0
+"Warwickshire, West Midlands",IT Jobs,1,65000.0,78000.0
+"Southend-On-Sea, Essex",IT Jobs,1,33365.0,37035.0
+"Warwick, Warwickshire",IT Jobs,1,55193.0,55193.0
+"Solihull, West Midlands",IT Jobs,1,31000.0,31000.0
+"Glasgow City Centre, Glasgow",IT Jobs,1,80000.0,110000.0
+"Furzedown, South West London",Part time Jobs,1,22880.0,22880.0
