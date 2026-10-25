@@ -7,6 +7,31 @@ A data engineering project focused on extracting, transforming, and organizing j
   <img src="https://skillicons.dev/icons?i=python,docker,git,github" alt="Python, Docker, Git, and GitHub" />
 </p>
 
+<h2>🛠️ Tech Stack</h2>
+
+<h3>Programming & Data Processing</h3>
+<p>
+  <img src="https://skillicons.dev/icons?i=python" alt="Python" />
+  <img src="https://cdn.simpleicons.org/pandas/150458" height="48" alt="Pandas" />
+</p>
+
+<h3>Workflow Orchestration</h3>
+<p>
+  <img src="https://cdn.simpleicons.org/apacheairflow/017CEE" height="48" alt="Apache Airflow" />
+</p>
+
+<h3>DevOps & Version Control</h3>
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,git,github" alt="Docker, Git, GitHub" />
+</p>
+
+<h3>Data Formats & Analytics</h3>
+<p>
+  <img src="https://cdn.simpleicons.org/json/000000" height="48" alt="JSON" />
+  <img src="https://cdn.simpleicons.org/files/64748B" height="48" alt="Files and CSV datasets" />
+</p>
+
+
 
 
 ## Project Overview
