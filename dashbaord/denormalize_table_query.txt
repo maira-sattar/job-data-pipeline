@@ -1,1 +1,35 @@
+------------------------ JOB CATEGORY ----------------------
+SELECT
+  category,
+  SUM(job_count) AS total_jobs
+FROM
+  dbacademy.default.gold_job_market
+GROUP BY
+  category
+ORDER BY
+  total_jobs DESC;
+------------------------ SALARY AVERGAE ----------------------
+SELECT
+    location,
+    ROUND(AVG(avg_salary_min), 2) AS average_salary_min,
+    ROUND(AVG(avg_salary_max), 2) AS average_salary_max
+FROM dbacademy.default.gold_job_market
+WHERE avg_salary_min IS NOT NULL
+  AND avg_salary_max IS NOT NULL
+GROUP BY location
+ORDER BY average_salary_max DESC;
 
+------------------------ JOBS DEMAND ----------------------
+SELECT 
+    location,
+    category,
+    SUM(job_count) AS total_jobs,
+    MAX(avg_salary_max) AS max_salary
+FROM dbacademy.default.gold_job_market
+GROUP BY location, category;
+
+------------------------ JOB CATEGORY SALARY----------------------
+SELECT 
+    avg_salary_max AS salary
+FROM dbacademy.default.gold_job_market
+WHERE avg_salary_max IS NOT NULL;
