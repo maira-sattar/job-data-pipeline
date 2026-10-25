@@ -4,7 +4,6 @@ An end-to-end data engineering project that pulls UK data analyst job postings f
   <img src="https://skillicons.dev/icons?i=python,docker,git,github" alt="Python, Docker, Git, and GitHub" />
   <img src="https://cdn.simpleicons.org/apacheairflow/017CEE" height="48" alt="Apache Airflow" />
   <img src="https://cdn.simpleicons.org/googlebigquery/669DF6" height="48" alt="Google BigQuery" />
-  <img src="https://cdn.simpleicons.org/tableau/E97627" height="48" alt="Tableau" />
   <img src="https://cdn.simpleicons.org/json/000000" height="48" alt="JSON" />
 </p>
 
@@ -20,7 +19,7 @@ This project is an ETL (Extract, Transform, Load) pipeline for job-market data. 
 | Data source | Adzuna Jobs API |
 | Orchestration | Apache Airflow 2.9.3 on Docker Compose |
 | Cloud | Google Cloud Platform: BigQuery (Sandbox) and IAM service account |
-| Reporting | Tableau Public |
+| Reporting | Tableu |
 | Version control | Git and GitHub |
 
 ## Data Pipeline Architecture
@@ -58,6 +57,7 @@ ORDER BY job_count DESC;
 ```
 
 ## Dashboard
+<img width="2048" height="1280" alt="Screenshot 2026-09-01 at 5 37 51 PM" src="https://github.com/user-attachments/assets/7fb2d50f-f3a6-4523-8910-92a3d7cc2d50" />
 
 <img width="1505" height="907" alt="Screenshot 2026-10-25 at 11 02 10 PM" src="https://github.com/user-attachments/assets/f7c6bee8-be4d-4be0-9f90-787355f3e616" />
 
