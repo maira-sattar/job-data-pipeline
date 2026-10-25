@@ -55,10 +55,9 @@ job-data-pipelines/
 | Silver | Stores cleaned and transformed records | CSV |
 | Gold / Analytics | Stores summarized data for reporting | CSV |
 
-## <img width="1505" height="907" alt="Screenshot 2026-10-25 at 11 02 10 PM" src="https://github.com/user-attachments/assets/f7c6bee8-be4d-4be0-9f90-787355f3e616" />
-Dashboard
+## Dashboard
 
-
+<img width="1505" height="907" alt="Screenshot 2026-10-25 at 11 02 10 PM" src="https://github.com/user-attachments/assets/f7c6bee8-be4d-4be0-9f90-787355f3e616" />
 
 ## ⚙️ Getting Started
 
