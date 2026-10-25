@@ -8,11 +8,7 @@ A data engineering project focused on extracting, transforming, and organizing j
   <img src="https://skillicons.dev/icons?i=python,docker,git,github" alt="Python, Docker, Git, and GitHub" />
 </p>
 
-- **Python** — Data extraction and transformation
-- **Apache Airflow** — Workflow orchestration
-- **Docker Compose** — Local environment setup
-- **JSON and CSV** — Data storage formats
-- **Git and GitHub** — Version control and project management
+
 
 ## 📌 Project Overview
 
@@ -22,32 +18,7 @@ The pipeline is organized into modular Python scripts and an Apache Airflow DAG 
 
 ## 🏗️ Data Pipeline Architecture
 
-```text
-Job-Market Data
-       |
-       v
-   Extraction
-   (Python)
-       |
-       v
- Bronze Layer
-   (Raw JSON)
-       |
-       v
- Transformation
-   (Python)
-       |
-       v
- Silver Layer
- (Cleaned CSV)
-       |
-       v
- Gold / Analytics
- (Summary Dataset)
-       |
-       v
- Dashboard & Insights
-```
+<img width="890" height="682" alt="Job market data architecture diagram" src="https://github.com/user-attachments/assets/8104fbaf-55a0-4b92-92b6-0ca7a8a2165f" />
 
 ## 🔄 Pipeline Workflow
 
@@ -77,8 +48,6 @@ job-data-pipelines/
 └── README.md
 ```
 
-*Note: Update the folder and file names above if your actual repository structure differs. Rename `dashbaords` to `dashboards` in your project if you haven't already.*
-
 ## 🥉 Data Layers
 
 | Layer | Purpose | Format |
@@ -89,15 +58,7 @@ job-data-pipelines/
 
 ## 📊 Dashboard
 
-The dashboard provides a visual way to explore the processed job-market data.
 
-To display your dashboard screenshot on GitHub:
-
-1. Create a `dashboards` folder if it doesn't exist.
-2. Add your screenshot to that folder.
-3. Name it `dashboard-screenshot.png`.
-
-![Job Market Dashboard](dashboards/dashboard-screenshot.png)
 
 ## ⚙️ Getting Started
 
@@ -137,31 +98,5 @@ Use the credentials configured in your Airflow environment.
 
 Locate the `retail_job_pipeline_dag` DAG in the Airflow interface, enable it if necessary, and trigger a run. Monitor task execution and review the generated output files.
 
-*Follow the configuration and execution steps defined in your actual Docker Compose file and DAG.*
 
-## 🎯 Key Learning Outcomes
 
-- Designing modular ETL pipelines with Python
-- Separating raw and cleaned data into Bronze and Silver layers
-- Organizing and orchestrating workflows using Apache Airflow
-- Managing a local data engineering environment with Docker Compose
-- Preparing structured datasets for dashboard reporting
-- Using Git and GitHub to manage project versions
-
-## 🚀 Future Improvements
-
-- Add automated data-quality validation
-- Implement a dedicated Gold data layer
-- Improve pipeline logging and error handling
-- Integrate a database or cloud data warehouse
-- Automate dashboard data refreshes
-
-## 👩‍💻 Author
-
-**Maira Sattar**
-
-- GitHub: [@maira-sattar](https://github.com/maira-sattar)
-
----
-
-*Built as a practical data engineering project to demonstrate ETL workflow development and data pipeline orchestration.*
