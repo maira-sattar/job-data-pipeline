@@ -2,25 +2,24 @@
 
 A data engineering project focused on extracting, transforming, and organizing job-market data into structured datasets for analytics and dashboard reporting.
 
-## 🛠️ Technologies Used
 
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=python,docker,git,github" alt="Python, Docker, Git, and GitHub" />
 </p>
 
 
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates an ETL (Extract, Transform, Load) pipeline for processing job-market data. It separates raw data from cleaned data and prepares structured outputs for analysis.
 
 The pipeline is organized into modular Python scripts and an Apache Airflow DAG to support workflow orchestration and data processing.
 
-## 🏗️ Data Pipeline Architecture
+## Data Pipeline Architecture
 
 <img width="890" height="682" alt="Job market data architecture diagram" src="https://github.com/user-attachments/assets/8104fbaf-55a0-4b92-92b6-0ca7a8a2165f" />
 
-## 🔄 Pipeline Workflow
+## Pipeline Workflow
 
 1. **Extract:** Collect job-market data and save raw records in JSON format.
 2. **Transform:** Clean and process the extracted data using Python.
@@ -28,7 +27,7 @@ The pipeline is organized into modular Python scripts and an Apache Airflow DAG 
 4. **Orchestrate:** Use Apache Airflow to define and manage pipeline tasks.
 5. **Analyze:** Prepare summarized job-market data for dashboard reporting.
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 job-data-pipelines/
@@ -48,7 +47,7 @@ job-data-pipelines/
 └── README.md
 ```
 
-## 🥉 Data Layers
+## Data Layers
 
 | Layer | Purpose | Format |
 |---|---|---|
@@ -56,7 +55,8 @@ job-data-pipelines/
 | Silver | Stores cleaned and transformed records | CSV |
 | Gold / Analytics | Stores summarized data for reporting | CSV |
 
-## 📊 Dashboard
+## <img width="1505" height="907" alt="Screenshot 2026-10-25 at 11 02 10 PM" src="https://github.com/user-attachments/assets/f7c6bee8-be4d-4be0-9f90-787355f3e616" />
+Dashboard
 
 
 
