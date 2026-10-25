@@ -16,9 +16,7 @@ A data engineering project focused on extracting, transforming, and organizing j
 
 ## Project Overview
 
-This project demonstrates an ETL (Extract, Transform, Load) pipeline for processing job-market data. It separates raw data from cleaned data and prepares structured outputs for analysis.
-
-The pipeline is organized into modular Python scripts and an Apache Airflow DAG to support workflow orchestration and data processing.
+This project demonstrates an ETL (Extract, Transform, Load) pipeline for processing job-market data. It separates raw data from cleaned data and prepares structured outputs for analysis. The pipeline is organized into modular Python scripts and an Apache Airflow DAG to support workflow orchestration and data processing.
 
 ## Data Pipeline Architecture
 
@@ -31,26 +29,6 @@ The pipeline is organized into modular Python scripts and an Apache Airflow DAG 
 3. **Load:** Store processed records in CSV format for downstream analysis.
 4. **Orchestrate:** Use Apache Airflow to define and manage pipeline tasks.
 5. **Analyze:** Prepare summarized job-market data for dashboard reporting.
-
-## Project Structure
-
-```text
-job-data-pipelines/
-├── dags/
-│   └── retail_job_pipeline_dag.py
-├── data/
-│   ├── bronze/
-│   └── silver/
-├── dashboards/
-│   └── gold_jobs_summary.csv
-├── src/
-│   ├── extract.py
-│   ├── transform.py
-│   └── load.py
-├── docker-compose.yaml
-├── .gitignore
-└── README.md
-```
 
 ## Data Layers
 
